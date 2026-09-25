@@ -159,3 +159,63 @@ body
     border-radius: 8px;
     padding: 10px 13px;
 }
+/* ========================== Section Clinic ================================ */
+
+.clinil-block
+{
+    display: flex;
+    gap: 81px;
+}
+.clinic-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clinic-title
+{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.0;
+    color: var(--colors-Neutral-800);
+    width: 480px;
+    margin-bottom: 40px;
+}
+.clinic-title span
+{
+    color: var(--colors-Primary-Accent);
+}
+.clinil-text
+{
+    width: 100%;
+    margin-bottom: 44px;
+    color: var(--colors-Neutral-600);
+}
+.clinic-buttons
+{
+    display: flex;
+    gap: 0 24px;
+}
+.clinic-btn 
+{
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 24px 32px;
+    border-radius: 12px;
+    text-align: center;
+    width: 251px;
+    height: 68px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.clinic_btn
+{
+    line-height: 1.1;
+    padding: 24px 32px;
+    border-radius: 12px;
+    text-align: center;
+    width: 201px;
+    height: 68px;
+    border: 1px solid var(--colors-Neutral-300);
+    color: var(--colors-Primary-Accent);
+}
