@@ -148,3 +148,14 @@ body
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent)
 }
+.header-link:active,
+.header_link:active
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+    background-color: var(--colors-Secondary-100);
+    border-radius: 8px;
+    padding: 10px 13px;
+}
