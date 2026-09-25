@@ -39,6 +39,7 @@ body
     font-weight: 400; 
     font-size: 18px;
     line-height: 1.6;
+    color: var(--colors-Neutral-100);
 }
 
 @font-face {
@@ -67,4 +68,83 @@ body
     max-width: 1440px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+/* =============================== Header ============================= */
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.nav-link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-logo
+{
+    width: 42px;
+}
+.nav-text
+{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    color: var(--colors-Neutral-800);
+}
+.header-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.header-item
+{
+    font-size: 16px;
+    color: var(--colors-Neutral-800);
+}
+.header_link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.header-address_list
+{
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    border-radius: 12px;
+    border: 1px solid var(--colors-Neutral-300);
+    padding: 18px 24px;
+    width: 185px;
+    height: 55px;
+}
+.header-address_link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.header-address_link img 
+{
+    width: 19px;
+}
+.header-btn
+{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    border-radius: 12px;
+    padding: 20px 24px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent)
 }
