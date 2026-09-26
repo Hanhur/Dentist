@@ -328,10 +328,6 @@ body
     margin-bottom: 6px;
 }
 /* ================================ Our Services ========================== */
-.section-OurServices
-{
-    margin-bottom: 200px;
-}
 .our-team_block-link
 {
     font-weight: 700;
@@ -537,6 +533,105 @@ body
     line-height: 1.1;
     padding: 24px 32px;
     border-radius: 12px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+/* ==================================== Our Customers ======================= */
+.wrapper
+{
+    padding: 176px 85px;
+}
+.customers
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customers_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.customers_title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 605px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--colors-Neutral-800);
+}
+.customers_text
+{
+    width: 640px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: var(--colors-Neutral-600);
+}
+.customers-block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 26px;
+    margin-bottom: 47px;
+}
+.customers-sophie,
+.customers-morgan,
+.customers-carter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sophie_img,
+.morgan_img,
+.carter_img
+{
+    width: 390px;
+    height: 362px;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+.sophie_title,
+.morgan_title,
+.carter_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 210px;
+    margin-bottom: 11px;
+    color: var(--colors-Neutral-800);
+}
+.sophie_text,
+.morgan_text,
+.carter_text
+{
+    width: 390px;
+    text-align: center;
+    color: var(--colors-Neutral-600);
+}
+.customers_btn
+{
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 24px 32px;
+    border-radius: 12px;
+    width: 251px;
+    height: 68px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
