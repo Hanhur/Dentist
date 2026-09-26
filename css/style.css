@@ -537,7 +537,7 @@ body
     background-color: var(--colors-Primary-Accent);
 }
 /* ==================================== Our Customers ======================= */
-.wrapper
+.wrapper-customers
 {
     padding: 176px 85px;
 }
@@ -634,4 +634,80 @@ body
     height: 68px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
+}
+/* ======================================= Resources ================================= */
+
+
+.resources
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+.resources_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.resources_title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 605px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--colors-Neutral-800);
+}
+.resources_text
+{
+    width: 640px;
+    text-align: center;
+    color: var(--colors-Neutral-600);
+}
+.resources-block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 27px;
+}
+.resources-braces
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.braces_img
+{
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+.braces-box
+{
+    padding: 40px 36px 35px 32px;
+}
+.braces_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 321px;
+    margin-bottom: 12px;
+    color: var(--colors-Neutral-800);
+}
+.braces_text
+{
+    width: 320px;
+    margin-bottom: 35px;
+    color: var(--colors-Neutral-600);
 }
