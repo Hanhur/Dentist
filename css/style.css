@@ -39,7 +39,7 @@ body
     font-weight: 400; 
     font-size: 18px;
     line-height: 1.6;
-    color: var(--colors-Neutral-100);
+    /* color: var(--colors-Neutral-100); */
 }
 
 @font-face {
@@ -165,6 +165,7 @@ body
 {
     display: flex;
     gap: 81px;
+    position: relative;
 }
 .clinic-box
 {
@@ -218,4 +219,111 @@ body
     height: 68px;
     border: 1px solid var(--colors-Neutral-300);
     color: var(--colors-Primary-Accent);
+}
+
+/* ===================================== Block Services ================================= */
+.block-services
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 52px 47px 52px;
+    border-radius: 28px;
+    border: 1px solid var(--colors-Neutral-100);
+    background-color: var(--colors-Neutral-100);
+    position: relative;
+    content: '';
+    right: -70px;
+    bottom: 140px;
+    width: 1220px;
+    height: 226px;
+}
+.block-services:nth-child(even)::after
+{
+    content: '';
+    position: absolute;
+    left: 380px;
+    width: 1px;
+    height: 147px;
+    border: 1px solid var(--colors-Neutral-400);
+}
+.block-services:nth-child(even)::before
+{
+    content: '';
+    position: absolute;
+    right: 370px;
+    width: 1px;
+    height: 147px;
+    border: 1px solid var(--colors-Neutral-400);
+}
+.box-contant_img
+{
+    width: 62px;
+    padding: 18px 14px;
+    border-radius: 20px;
+    background-color: var(--colors-Primary-Accent);
+}
+.box-open-hours_img
+{
+    width: 62px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: var(--colors-Primary-Accent);
+}
+.box-contant-services_img
+{
+    width: 62px;
+    padding: 13px 17px;
+    border-radius: 20px;
+    background-color: var(--colors-Primary-Accent);
+}
+.box-contact,
+.box-contact-open-hours,
+.box-contact-services
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 0 16px;
+}
+.box-contact_text,
+.box-open-hours_text,
+.box-contact-services_text
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    width: 155px;
+    margin-bottom: 9px;
+}
+.box-contact_link
+{
+    font-size: 16px;
+    color: var(--colors-Neutral-600);
+}
+.box-contact__link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+    border-bottom: 2px solid var(--colors-Primary-Accent);
+}
+.box-open-hours_link span
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+}
+.box-open-hours_link
+{
+    font-size: 16px;
+    color: var(--colors-Neutral-600);
+}
+.box-contact-services_link
+{
+    font-size: 16px;
+    color: var(--colors-Neutral-600);
+    margin-bottom: 6px;
 }
