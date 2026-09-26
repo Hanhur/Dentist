@@ -327,3 +327,116 @@ body
     color: var(--colors-Neutral-600);
     margin-bottom: 6px;
 }
+/* ================================ Our Services ========================== */
+
+
+
+.our-team_block-btn
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid var(--colors-Neutral-300);
+    color: var(--colors-Primary-Accent);
+}
+.our-team_dental
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+    gap: 0 380px;
+}
+.our-team_dental-title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 660px;
+    color: var(--colors-Neutral-800);
+}
+.our-team_dental-btn
+{
+    font-weight: 700;
+    line-height: 1.1;
+    border-radius: 12px;
+    padding: 24px 32px;
+    width: 251px;
+    height: 68px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.our-team_box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 25px;
+}
+.our-team_box-cosmetic,
+.our-team_box-orthodontics,
+.our-team_box-hygiene
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 390px;
+    height: 464px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.box-cosmetic_img
+{
+    padding: 44px 120px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.box-orthodontics_img
+{
+    padding: 66px 140px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.box-hygiene_img
+{
+    padding: 45px 127px 56px 144px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.box-cosmetic,
+.box-orthodontics,
+.box-hygiene
+{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 44px 32px;
+}
+.box-cosmetic_title,
+.box-orthodontics_title,
+.box-hygiene_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 6px;
+}
+.box-cosmetic_text,
+.box-orthodontics_text,
+.box-hygiene_text
+{
+    color: var(--colors-Neutral-600);
+    margin-bottom: 30px;
+}
+.box-cosmetic_link,
+.box-orthodontics_link,
+.box-hygiene_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+    text-decoration: underline;
+}
