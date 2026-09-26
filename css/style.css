@@ -328,17 +328,17 @@ body
     margin-bottom: 6px;
 }
 /* ================================ Our Services ========================== */
-
-
-
-.our-team_block-btn
+.section-OurServices
+{
+    margin-bottom: 200px;
+}
+.our-team_block-link
 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.1;
     padding: 12px 14px;
     border-radius: 8px;
-    margin-bottom: 20px;
     border: 1px solid var(--colors-Neutral-300);
     color: var(--colors-Primary-Accent);
 }
@@ -348,6 +348,7 @@ body
     align-items: center;
     margin-bottom: 48px;
     gap: 0 380px;
+    margin-top: 20px;
 }
 .our-team_dental-title
 {
@@ -439,4 +440,103 @@ body
     line-height: 1.1;
     color: var(--colors-Primary-Accent);
     text-decoration: underline;
+}
+/* ================================== About Us ============================== */
+.inner-block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 109px;
+}
+.block-img
+{
+    display: flex;
+    position: relative;
+    margin-right: 230px;
+}
+
+.block-img_1
+{
+    z-index: 1;
+    border-radius: 40px;
+}
+.block-img_2
+{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 338px;
+    left: 75px;
+    border-radius: 40px;
+}
+.block-mission
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 135px;
+}
+.mission_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.mission_title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    width: 520px;
+    margin-bottom: 21px;
+}
+.mission_text
+{
+    color: var(--colors-Neutral-600);
+    width: 520px;
+    margin-bottom: 25px;
+}
+.mission-moore
+{
+    display: flex;
+    align-items: center;
+    gap: 0 14px;
+    margin-bottom: 40px;
+}
+.moore_img
+{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.moore_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    width: 230px;
+    margin-bottom: 3px;
+}
+.moore_text
+{
+    color: var(--colors-Neutral-600);
+    width: 395px;
+}
+.mission_btn
+{
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 24px 32px;
+    border-radius: 12px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
 }
