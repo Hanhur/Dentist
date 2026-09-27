@@ -1,0 +1,38 @@
+/* ========================== About Dentist ===================== */
+.wrapper-dentist
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.scroll
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.scroll_text
+{
+    font-weight: 700;
+    color: var(--colors-Primary-Accent);
+}
+.dentist-clinic_title
+{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1;
+    width: 744px;
+    margin-bottom: 20px;
+    color: var(--colors-Neutral-800);
+}
+.dentist-clinic_text
+{
+    width: 542px;
+    margin-bottom: 65px;
+    color: var(--colors-Neutral-600);
+}
+.dentist_img
+{
+    display: block;
+    margin: 0 auto;
+}
