@@ -939,7 +939,7 @@ body
     width: 1222px;
     bottom: 0;
     margin-bottom: 35px;
-    border: 1px solid var(--colors-Neutral-700);
+    border: 1px solid var(--colors-Neutral-300);
 }
 .subscribe-title
 {
@@ -1055,4 +1055,41 @@ body
     font-size: 16px;
     line-height: 1.1;
     color: var(--colors-Neutral-600);
+}
+.footer-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+.footer-box_list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.footer-box__link
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-box_text
+{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    color: var(--colors-Neutral-800);
+    margin-right: 26px;
+}
+.footer-box__text
+{
+    font-size: 16px;
+    color: var(--colors-Neutral-600);
+}
+.footer-box__text span 
+{
+    color: var(--colors-Primary-Accent);
 }
