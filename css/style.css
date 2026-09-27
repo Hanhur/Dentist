@@ -161,7 +161,7 @@ body
 }
 /* ========================== Section Clinic ================================ */
 
-.clinil-block
+.clinic-block
 {
     display: flex;
     gap: 81px;
@@ -186,7 +186,7 @@ body
 {
     color: var(--colors-Primary-Accent);
 }
-.clinil-text
+.clinic-text
 {
     width: 100%;
     margin-bottom: 44px;
