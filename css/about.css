@@ -102,3 +102,114 @@
     border-radius: 54px;
     overflow: hidden;
 }
+/* ================================ About Values ========================= */
+.wrapper-values
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.values-link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.values-title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 605px;
+    text-align: center;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 40px;
+}
+.values-block
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    margin-bottom: 48px;
+}
+.values-box_1,
+.values-box_2,
+.values-box_3,
+.values-box_4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 16px;
+    border: 1px solid var(--colors-Neutral-300);
+    border-radius: 32px;
+    padding: 43px 34px;
+}
+.box_1-img
+{
+    padding: 18px 21px;
+    border-radius: 18px;
+    background-color: var(--colors-Secondary-100);
+}
+.box_2-img
+{
+    padding: 20px 15px;
+    border-radius: 18px;
+    background-color: var(--colors-Secondary-100);
+}
+.box_3-img
+{
+    padding: 19px 17px;
+    border-radius: 18px;
+    background-color: var(--colors-Secondary-100);
+}
+.box_4-img
+{
+    padding: 16px 10px;
+    border-radius: 18px;
+    background-color: var(--colors-Secondary-100);
+}
+.values-box_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 6px;
+    width: 210px;
+}
+.values-box_text
+{
+    width: 433px;
+    color: var(--colors-Neutral-600);
+}
+.values-box_btn
+{
+    display: flex;
+    gap: 0 24px;
+}
+.box_btn-1
+{
+    font-weight: 700;
+    line-height: 1.1;
+    border-radius: 12px;
+    padding: 32px 24px;
+    width: 251px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.box_btn-2
+{
+    line-height: 1.1;
+    padding: 32px 24px;
+    border-radius: 12px;
+    width: 201px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+}
