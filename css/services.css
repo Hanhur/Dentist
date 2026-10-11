@@ -1,0 +1,124 @@
+.section-services
+{
+    padding: 100px 109px 223px 109px;
+}
+.services-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 57px;
+}
+.box
+{
+    margin-right: 300px;
+}
+.box-title
+{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.0;
+    width: 418px;
+    margin-bottom: 20px;
+    color: var(--colors-Neutral-800);
+}
+.box-text
+{
+    width: 519px;
+    color: var(--colors-Neutral-600);
+}
+.box-btn
+{
+    font-weight: 700;
+    line-height: 1.1;
+    width: 251px;
+    height: 68px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.services__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px 40px;
+    justify-content: center;
+}
+.services_block
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 390px;
+    height: 464px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.services-cosmetic_img
+{
+    padding: 44px 120px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-orthodontics_img
+{
+    padding: 66px 140px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-hygiene_img
+{
+    padding: 45px 127px 56px 144px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-treatment_img
+{
+    padding: 49px 147px 72px 150px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-surgery_img
+{
+    padding: 66px 133px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-implants_img
+{
+    padding: 58px 160px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-cosmetic,
+.services-orthodontics,
+.services-hygiene,
+.services-treatment,
+.services-surgery,
+.services-implants
+{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 44px 32px;
+}
+.services_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 6px;
+}
+.services_text
+{
+    color: var(--colors-Neutral-600);
+    margin-bottom: 30px;
+}
+.services_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+    text-decoration: underline;
+}
