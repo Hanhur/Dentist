@@ -1,7 +1,7 @@
 .wrapper-single
 {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     gap: 0 95px;
@@ -59,7 +59,7 @@
     width: 403px;
     height: 770px;
     border-radius: 32px;
-    padding: 70px 32px;
+    padding: 53px 32px 70px 32px;
     border: 1px solid var(--colors-Neutral-300);
 }
 .consultation_img
@@ -129,4 +129,98 @@
     content: '';
     position: absolute;
     right: 16px;
+}
+/* ============================== More Services =================== */
+.section-moreServices
+{
+    margin-bottom: 180px;
+}
+.moreServices
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px 40px;
+}
+.moreServices-title
+{
+    width: 361px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+}
+.moreServices-link
+{
+    display: flex;
+    align-items: center;
+    width: 201px;
+    height: 68px;
+    padding: 24px 32px;
+    border-radius: 12px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+}
+.services__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px 40px;
+    justify-content: center;
+}
+.services_block
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 390px;
+    height: 464px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.services-orthodontics_img
+{
+    padding: 66px 140px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-hygiene_img
+{
+    padding: 45px 127px 56px 144px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-treatment_img
+{
+    padding: 49px 147px 72px 150px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-orthodontics,
+.services-hygiene,
+.services-treatment
+{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 44px 32px;
+}
+.services_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 6px;
+}
+.services_text
+{
+    color: var(--colors-Neutral-600);
+    margin-bottom: 30px;
+}
+.services_link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--colors-Primary-Accent);
+    text-decoration: underline;
 }
