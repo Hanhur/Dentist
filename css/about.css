@@ -103,6 +103,10 @@
     overflow: hidden;
 }
 /* ================================ About Values ========================= */
+.section-values
+{
+    margin-bottom: 200px;
+}
 .wrapper-values
 {
     display: flex;
@@ -212,4 +216,105 @@
     width: 201px;
     color: var(--colors-Primary-Accent);
     border: 1px solid var(--colors-Neutral-300);
+}
+/* ========================================= Our Team =============================== */
+.section-OurTeam
+{
+    margin-bottom: 200px;
+}
+.wrapper-OurTeam
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.OurTeam-link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.OurTeam-title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 665px;
+    text-align: center;
+    color: var(--colors-Neutral-800);
+    margin-bottom: 47px;
+}
+.OurTeam-block
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 0 24px;
+}
+.OurTeam-box_1,
+.OurTeam-box_2,
+.OurTeam-box_3,
+.OurTeam-box_4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.OurTeam-box_img
+{
+    width: 286px;
+    border-radius: 54px;
+    margin-bottom: 33px;
+    background-color: var(--colors-Secondary-100);
+}
+.OurTeam-box_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+    width: 247px;
+    text-align: center;
+    color: var(--colors-Neutral-800);
+}
+.OurTeam-box_text
+{
+    width: 286px;
+    text-align: center;
+    margin-bottom: 14px;
+    color: var(--colors-Neutral-600);
+}
+.OurTeam-social
+{
+    display: flex;
+    gap: 16px;
+}
+.OurTeam-social_1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    background-color: var(--colors-Primary-Accent);
+}
+.OurTeam-social_2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    background-color: var(--colors-Primary-Accent);
 }
