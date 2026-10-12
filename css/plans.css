@@ -1,0 +1,43 @@
+.section-plans
+{
+
+}
+.plans-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plans-link
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+    margin-bottom: 20px;
+}
+.plans-title
+{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.0;
+    width: 806px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--colors-Neutral-800);
+}
+.plans-title span
+{
+    color: var(--colors-Primary-Accent);
+}
+.plans-text
+{
+    width: 567px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: var(--colors-Neutral-600);
+}
