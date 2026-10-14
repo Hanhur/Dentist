@@ -1,0 +1,212 @@
+.wrapper-plan
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 109px;
+}
+.plan-box_img
+{
+    width: 92px;
+    border-radius: 30px;
+    padding: 19px 21px;
+    margin-bottom: 21px;
+    background-color: var(--colors-Secondary-100);
+}
+.plan-box_title
+{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.0;
+    margin-bottom: 20px;
+    color: var(--colors-Neutral-800);
+}
+.plan-box_text
+{
+    width: 493px;
+    margin-bottom: 32px;
+    color: var(--colors-Neutral-600);
+}
+.plan-standard_list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 22px 0;
+    margin-bottom: 226px;
+    width: 600px;
+}
+.plan-standard_item
+{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+.plan-standard_item img
+{
+    width: 22px;
+}
+.plan-standard_item p
+{
+    width: 277px;
+    color: var(--colors-Neutral-600);
+}
+.plan-box__title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 687px;
+    margin-bottom: 21px;
+    color: var(--colors-Neutral-800);
+}
+.plan-box__text
+{
+    width: 677px;
+    margin-bottom: 23px;
+    color: var(--colors-Neutral-600);
+}
+.paln-box_list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    list-style-type: disc;
+    margin-left: 35px;
+    margin-bottom: 41px;
+    color: var(--colors-Neutral-600);
+}
+.plan-box-title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 657px;
+    margin-bottom: 16px;
+    color: var(--colors-Neutral-800);
+}
+.plan-box-text
+{
+    width: 678px;
+    margin-bottom: 41px;
+    color: var(--colors-Neutral-600);
+}
+.plan-box_btn
+{
+    font-weight: 700;
+    line-height: 1.1;
+    width: 251px;
+    height: 68px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.plan_box
+{
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    height: 653px;
+    border-radius: 28px;
+    padding: 76px 39px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.plan_box-title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 302px;
+    margin-bottom: 19px;
+    color: var(--colors-Neutral-800);
+}
+.plan_box-span
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 218px;
+    margin-bottom: 13px;
+    color: var(--colors-Primary-Accent);
+}
+.plan_box-text
+{
+    width: 385px;
+    font-size: 16px;
+    margin-bottom: 26px;
+    color: var(--colors-Neutral-600);
+    position: relative;
+}
+.plan_box-text::after
+{
+    content: '';
+    position: absolute;
+    width: 385px;
+    left: 0;
+    right: 0;
+    bottom: -27px;
+    border: 1px solid var(--colors-Neutral-400);
+}
+.plan_box-form
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+.plan_box-label
+{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: var(--colors-Neutral-800);
+}
+.plan_box-link
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.plan_box-link input
+{
+    width: 385px;
+    height: 68px;
+    border-radius: 12px;
+    padding: 23px 27px;
+    border: 1px solid var(--colors-Neutral-300);
+}
+.plan_box-link input ::placeholder
+{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--colors-Neutral-600);
+}
+.plan_box-link img 
+{
+    content: '';
+    position: absolute;
+    right: 27px;
+}
+.plan_box-cart
+{
+    width: 385px;
+    height: 68px;
+    font-weight: 700;
+    line-height: 1.1;
+    border-radius: 12px;
+    padding: 24px 32px;
+    margin-bottom: 14px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.plan_box-now
+{
+    width: 385px;
+    height: 68px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    color: var(--colors-Primary-Accent);
+    border: 1px solid var(--colors-Neutral-300);
+}
