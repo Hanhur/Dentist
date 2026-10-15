@@ -1,12 +1,9 @@
-.section-contact
-{
-    padding: 106px 106px 145px 118px;
-}
 .wrapper-contact
 {
     display: flex;
     justify-content: center;
     gap: 0 97px;
+    padding: 106px 106px 145px 118px;
 }
 .contact-book_title
 {
@@ -82,4 +79,104 @@
 {
     width: 210px;
     color: var(--colors-Neutral-600);
+}
+/* =========================== Social Media ====================== */
+.wrapper-social
+{
+    padding: 100px 110px;
+}
+.social-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.social-title
+{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    width: 489px;
+    color: var(--colors-Neutral-800);
+}
+.social-btn
+{
+    font-weight: 700;
+    width: 158px;
+    height: 68px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    color: var(--colors-Neutral-100);
+    background-color: var(--colors-Primary-Accent);
+}
+.social-block_list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 26px;
+}
+.social-block_item
+{
+    width: 286px;
+    height: 335px;
+    border-radius: 20px;
+    padding: 40px 26px 65px 26px;
+    border: 1px solid var(--colors-Secondary-100);
+}
+.social-block_img-facebook
+{
+    width: 74px;
+    padding: 17px 26px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    background-color: var(--colors-Primary-Accent);
+}
+.social-block_img-twitter
+{
+    width: 74px;
+    padding: 20px 16px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    background-color: var(--colors-Primary-Accent);
+}
+.social-block_img-instagram
+{
+    width: 74px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    background-color: var(--colors-Primary-Accent);
+}
+.social-block_img-googleMaps
+{
+    width: 74px;
+    padding: 14px 21px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    background-color: var(--colors-Primary-Accent);
+}
+.social-block_title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 152px;
+    margin-bottom: 7px;
+    color: var(--colors-Neutral-700);
+}
+.social-block_text
+{
+    width: 234px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: var(--colors-Neutral-600);
+}
+.social-block_link
+{
+    width: 123px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--colors-Primary-Accent);
 }
