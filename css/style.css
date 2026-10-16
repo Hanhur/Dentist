@@ -108,6 +108,9 @@ body
 {
     font-size: 16px;
     color: var(--colors-Neutral-800);
+    border-radius: 8px;
+    padding: 10px 13px;
+    transition-timing-function: var(--cubic)
 }
 .header_link
 {
@@ -123,7 +126,7 @@ body
     color: var(--colors-Neutral-800);
     border-radius: 12px;
     border: 1px solid var(--colors-Neutral-300);
-    padding: 18px 24px;
+    padding: 18px 20px;
     width: 185px;
     height: 55px;
 }
@@ -148,8 +151,7 @@ body
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent)
 }
-.header-link:active,
-.header_link:active
+.header-item:is(:hover, :focus, :active)
 {
     font-weight: 700;
     font-size: 16px;
@@ -158,6 +160,7 @@ body
     background-color: var(--colors-Secondary-100);
     border-radius: 8px;
     padding: 10px 13px;
+    transition-timing-function: var(--cubic)
 }
 /* ========================== Section Clinic ================================ */
 
@@ -231,6 +234,7 @@ body
     border-radius: 28px;
     border: 1px solid var(--colors-Neutral-100);
     background-color: var(--colors-Neutral-100);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14), 1px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     position: relative;
     content: '';
     right: -70px;
@@ -282,7 +286,7 @@ body
 .box-contact-services
 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 0 16px;
 }
 .box-contact_text,
