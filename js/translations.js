@@ -109,7 +109,50 @@ export const translations = {
         "footer.licenses": "Licence",
         "footer.changelog": "Změny",
         "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
-        "footer.copyright": "Copyright &copy; Dentist Navrhl <span>BRIX Templates</span> - Běží na <span>Webflow</span>"
+        "footer.copyright": "Copyright &copy; Dentist Navrhl <span>BRIX Templates</span> - Běží na <span>Webflow</span>",
+
+        // PLANS
+        "plans.label": "Ceník",
+        "plans.title": "Dostupné plány termínů <span>pro každého</span>",
+        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
+        "plans.priceDesc": "Lorem ipsum dolor sit amet, proin eget consectetur adipiscing elit.",
+        "plans.standard.title": "Standard",
+        "plans.standard.appointments": "1 termín",
+        "plans.premium.title": "Premium",
+        "plans.premium.appointments": "2 termíny",
+        "plans.family.title": "Rodinný",
+        "plans.family.appointments": "4 termíny",
+        "plans.feature.followUp": "Následné hovory a asistence",
+        "plans.feature.expert": "Služby od zkušených zubařů",
+        "plans.feature.clinics": "K dispozici 4 kliniky",
+
+        // ABOUT HERO
+        "aboutHero.title": "Jsme Dentist, stomatologická klinika, které můžete věřit",
+        "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
+        "aboutHero.scroll": "Posuňte dolů",
+
+        // ABOUT STORY
+        "aboutStory.label": "Náš příběh",
+        "aboutStory.title": "Začínali jsme jen s jedním cílem: Rozesmát naše klienty",
+        "aboutStory.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nunc parturient massa arcu, blandit. Morbi vulputate nulla in in. Viverra vel bibendum felis sed eu. Gravida felis scelerisque massa vestibulum tellus ac justo. Sollicitudin amet suscipit elit viverra lectus.",
+
+        // VALUES
+        "values.label": "Hodnoty",
+        "values.title": "Hlavní hodnoty, které řídí vše, co děláme",
+        "values.desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen.",
+        "values.trust.title": "Důvěra",
+        "values.responsibility.title": "Odpovědnost",
+        "values.care.title": "Péče a služby",
+        "values.commitment.title": "Odhodlání",
+
+        // TEAM
+        "team.label": "Náš tým",
+        "team.title": "Náš úžasný tým zubařů je připraven vám pomoci",
+        "team.member.role": "Lorem Ipsum dolor",
+        "team.member1.name": "Andrew Moore",
+        "team.member2.name": "Clark Howell",
+        "team.member3.name": "Kate Fuller",
+        "team.member4.name": "Arthur Wade",
     },
 
     uk: {
@@ -222,7 +265,50 @@ export const translations = {
         "footer.licenses": "Ліцензії",
         "footer.changelog": "Журнал змін",
         "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
-        "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>"
+        "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>",
+
+        // PLANS
+        "plans.label": "Тарифи",
+        "plans.title": "Доступні плани прийомів <span>для кожного</span>",
+        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
+        "plans.priceDesc": "Lorem ipsum dolor sit amet, proin eget consectetur adipiscing elit.",
+        "plans.standard.title": "Стандарт",
+        "plans.standard.appointments": "1 прийом",
+        "plans.premium.title": "Преміум",
+        "plans.premium.appointments": "2 прийоми",
+        "plans.family.title": "Сімейний",
+        "plans.family.appointments": "4 прийоми",
+        "plans.feature.followUp": "Подальші дзвінки та допомога",
+        "plans.feature.expert": "Послуги від досвідчених стоматологів",
+        "plans.feature.clinics": "Доступні 4 клініки",
+
+        // ABOUT HERO
+        "aboutHero.title": "Ми — Dentist, стоматологічна клініка, якій можна довіряти",
+        "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
+        "aboutHero.scroll": "Прокрутіть вниз",
+
+        // ABOUT STORY
+        "aboutStory.label": "Наша історія",
+        "aboutStory.title": "Ми починали лише з однією метою: Змусити наших клієнтів усміхатися",
+        "aboutStory.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nunc parturient massa arcu, blandit. Morbi vulputate nulla in in. Viverra vel bibendum felis sed eu. Gravida felis scelerisque massa vestibulum tellus ac justo. Sollicitudin amet suscipit elit viverra lectus.",
+
+        // VALUES
+        "values.label": "Цінності",
+        "values.title": "Основні цінності, що керують усім, що ми робимо",
+        "values.desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen.",
+        "values.trust.title": "Довіра",
+        "values.responsibility.title": "Відповідальність",
+        "values.care.title": "Турбота та сервіс",
+        "values.commitment.title": "Відданість",
+
+        // TEAM
+        "team.label": "Наша команда",
+        "team.title": "Наша дивовижна команда стоматологів готова вам допомогти",
+        "team.member.role": "Lorem Ipsum dolor",
+        "team.member1.name": "Ендрю Мур",
+        "team.member2.name": "Кларк Гауелл",
+        "team.member3.name": "Кейт Фуллер",
+        "team.member4.name": "Артур Вейд",
     },
     en: {
         // NAV
@@ -334,6 +420,49 @@ export const translations = {
         "footer.licenses": "Licenses",
         "footer.changelog": "Changelog",
         "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
-        "footer.copyright": "Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span>"
+        "footer.copyright": "Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span>",
+
+        // PLANS
+        "plans.label": "Plans",
+        "plans.title": "Affordable appointment plans <span>for everyone</span>",
+        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
+        "plans.priceDesc": "Lorem ipsum dolor sit amet, proin eget consectetur adipiscing elit.",
+        "plans.standard.title": "Standard",
+        "plans.standard.appointments": "1 appointment",
+        "plans.premium.title": "Premium",
+        "plans.premium.appointments": "2 appointments",
+        "plans.family.title": "Family",
+        "plans.family.appointments": "4 appointments",
+        "plans.feature.followUp": "Follow-up calls & assistance",
+        "plans.feature.expert": "Service from expert dentists",
+        "plans.feature.clinics": "4 clinics available",
+
+        // ABOUT HERO
+        "aboutHero.title": "We are Dentist, a dental clinic you can trust",
+        "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
+        "aboutHero.scroll": "Scroll Down",
+
+        // ABOUT STORY
+        "aboutStory.label": "Our Story",
+        "aboutStory.title": "We started with only one goal: Make our clients smile",
+        "aboutStory.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nunc parturient massa arcu, blandit. Morbi vulputate nulla in in. Viverra vel bibendum felis sed eu. Gravida felis scelerisque massa vestibulum tellus ac justo. Sollicitudin amet suscipit elit viverra lectus.",
+
+        // VALUES
+        "values.label": "Values",
+        "values.title": "The core values that drive everything what we do",
+        "values.desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen.",
+        "values.trust.title": "Trust",
+        "values.responsibility.title": "Responsibility",
+        "values.care.title": "Care & Service",
+        "values.commitment.title": "Commitment",
+
+        // TEAM
+        "team.label": "Our Team",
+        "team.title": "Our amazing team of dentists ready to serve you",
+        "team.member.role": "Lorem Ipsum dolor",
+        "team.member1.name": "Andrew Moore",
+        "team.member2.name": "Clark Howell",
+        "team.member3.name": "Kate Fuller",
+        "team.member4.name": "Arthur Wade",
     }
 };
