@@ -369,54 +369,70 @@ body
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
-.our-team_box
+.services__block
 {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 26px 40px;
     justify-content: center;
-    gap: 0 25px;
 }
-.our-team_box-cosmetic,
-.our-team_box-orthodontics,
-.our-team_box-hygiene
+.services_block
 {
     display: flex;
-    align-items: center;
     flex-direction: column;
     border-radius: 32px;
     width: 390px;
     height: 464px;
     border: 1px solid var(--colors-Neutral-300);
 }
-.box-cosmetic_img
+.services-cosmetic_img
 {
     padding: 44px 120px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-100);
 }
-.box-orthodontics_img
+.services-orthodontics_img
 {
     padding: 66px 140px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-100);
 }
-.box-hygiene_img
+.services-hygiene_img
 {
     padding: 45px 127px 56px 144px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-100);
 }
-.box-cosmetic,
-.box-orthodontics,
-.box-hygiene
+.services-treatment_img
+{
+    padding: 49px 147px 72px 150px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-surgery_img
+{
+    padding: 66px 133px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-implants_img
+{
+    padding: 58px 160px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-100);
+}
+.services-cosmetic,
+.services-orthodontics,
+.services-hygiene,
+.services-treatment,
+.services-surgery,
+.services-implants
 {
     display: flex;
     flex-direction: column;
     padding: 32px 32px 44px 32px;
 }
-.box-cosmetic_title,
-.box-orthodontics_title,
-.box-hygiene_title
+.services_title
 {
     font-weight: 700;
     font-size: 24px;
@@ -424,16 +440,12 @@ body
     color: var(--colors-Neutral-800);
     margin-bottom: 6px;
 }
-.box-cosmetic_text,
-.box-orthodontics_text,
-.box-hygiene_text
+.services_text
 {
     color: var(--colors-Neutral-600);
     margin-bottom: 30px;
 }
-.box-cosmetic_link,
-.box-orthodontics_link,
-.box-hygiene_link
+.services_link
 {
     font-weight: 700;
     font-size: 16px;
