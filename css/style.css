@@ -876,14 +876,18 @@ body
     height: 60px;
     border-radius: 12px;
     margin-bottom: 32px;
-    padding: 20px 18px;
+    padding: 18px;
     border: 1px solid var(--colors-Neutral-300);
 }
-.form-link
+.form-select-wrapper
 {
     display: flex;
     align-items: center;
     position: relative;
+}
+.form-select
+{
+    appearance: none;
 }
 .form-img
 {
@@ -908,7 +912,8 @@ body
     border: 1px solid var(--colors-Neutral-300);
 }
 .form-input::placeholder,
-.form-textarea::placeholder
+.form-textarea::placeholder,
+.form-select
 {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400; 

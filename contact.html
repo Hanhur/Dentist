@@ -110,11 +110,19 @@
                                         <input class="form-input" type="text" placeholder="(123) - 840 3987">
                                     </li>
                                     <li class="form-item">
-                                        <label class="form-label">Service</label>
-                                        <a class="form-link" href="#">
-                                            <input class="form-input" type="text" placeholder="Service">
+                                        <label class="form-label" data-i18n="contactUs.service">Service</label>
+                                        <div class="form-select-wrapper">
+                                            <select class="form-input form-select" name="service" data-i18n-select="serviceOptions">
+                                                <option value="" data-i18n="contactUs.servicePh" disabled selected>Service</option>
+                                                <option value="cosmetic" data-i18n="ourServices.cosmetic">Cosmetic Dentistry</option>
+                                                <option value="orthodontics" data-i18n="ourServices.orthodontics">Orthodontics</option>
+                                                <option value="hygiene" data-i18n="ourServices.hygiene">Oral Hygiene</option>
+                                                <option value="treatment" data-i18n="ourServices.treatment">Dental Treatment</option>
+                                                <option value="surgery" data-i18n="ourServices.surgery">Dental Surgery</option>
+                                                <option value="implants" data-i18n="ourServices.implants">Dental Implants</option>
+                                            </select>
                                             <img class="form-img" src="./images/ChevronDown.svg" alt="Chevron Down">
-                                        </a>
+                                        </div>
                                     </li>
                                 </div>
                             </ul>
@@ -311,5 +319,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="js/i18next.js"></script>
 </body>
 </html>

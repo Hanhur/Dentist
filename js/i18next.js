@@ -17,6 +17,13 @@ function applyTranslations(lang) {
         }
     });
 
+    document.querySelectorAll('select[data-i18n-select]').forEach(select => {
+        const savedValue = select.value;
+        if (savedValue) {
+            requestAnimationFrame(() => { select.value = savedValue; });
+        }
+    });
+
     localStorage.setItem('lang', lang);
 }
 
@@ -29,4 +36,43 @@ document.addEventListener('DOMContentLoaded', () => {
         select.value = savedLang;
         select.addEventListener('change', event => applyTranslations(event.target.value));
     }
+
+    document.querySelectorAll('.form-select-wrapper').forEach(wrapper => {
+        const select = wrapper.querySelector('.form-select');
+        const icon = wrapper.querySelector('.form-img');
+        if (!select || !icon) return;
+
+        icon.addEventListener('click', (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (typeof select.showPicker === 'function') {
+                try {
+                    select.showPicker();
+                } catch (err) {
+                    select.focus();
+                    select.click();
+                }
+            } else {
+                select.focus();
+                select.click();
+            }
+        });
+
+        select.addEventListener('mousedown', () => {
+            wrapper.classList.add('is-open');
+        });
+
+        select.addEventListener('focus', () => {
+            wrapper.classList.add('is-open');
+        });
+
+        select.addEventListener('blur', () => {
+            wrapper.classList.remove('is-open');
+        });
+
+        select.addEventListener('change', () => {
+            wrapper.classList.remove('is-open');
+        });
+    });
 });
