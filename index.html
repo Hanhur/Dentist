@@ -19,16 +19,16 @@
                 </a>
                 <ul class="header-list">
                     <li class="header-item">
-                        <a class="header-link" href="./index.html">Home</a>
+                        <a class="header-link" href="./index.html" data-i18n="nav.home">Home</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="./services.html">Services</a>
+                        <a class="header-link" href="./services.html" data-i18n="nav.services">Services</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="./plans.html">Prices</a>
+                        <a class="header-link" href="./plans.html" data-i18n="nav.prices">Prices</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="./about.html">About Us</a>
+                        <a class="header-link" href="./about.html" data-i18n="nav.about">About Us</a>
                     </li>
                 </ul>
                 <address class="header-address">
@@ -41,7 +41,12 @@
                         </li>
                     </ul>
                 </address>
-                <button class="header-btn" type="submit">Book Now</button>
+                <select id="langSelect" class="lang-select">
+                    <option value="cs">CS</option>
+                    <option value="uk">UA</option>
+                    <option value="en">EN</option>
+                </select>
+                <button class="header-btn" type="submit" data-i18n="nav.bookNow">Book Now</button>
             </nav>
         </div>
     </header>
@@ -52,14 +57,14 @@
             <div class="container">
                 <div class="clinic-block">
                     <div class="clinic-box">
-                        <h1 class="clinic-title">A <span>dentistry clinic</span> you can trust</h1>
-                        <p class="clinic-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, 
+                        <h1 class="clinic-title" data-i18n="hero.title">A <span>dentistry clinic</span> you can trust</h1>
+                        <p class="clinic-text" data-i18n="hero.text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
                             sapien habitant integer senectus malesuada ac.
                         </p>
                         <div class="clinic-buttons">
-                            <button class="clinic-btn" type="submit">Book an Appointment</button>
-                            <a class="clinic_btn" href="./serviceSingle.html">Browse Services</a>
+                            <button class="clinic-btn" type="submit" data-i18n="hero.btn1">Book an Appointment</button>
+                            <a class="clinic_btn" href="./serviceSingle.html" data-i18n="hero.btn2">Browse Services</a>
                         </div>
                     </div>
                     <img class="clinic-img" src="./images/MaskGroup.png" alt="Mask Group">
@@ -69,7 +74,7 @@
                         <img class="box-contant_img" src="./images/Contact.svg" alt="Contact">
                         <ul class="box-contact_list">
                             <li class="box-contact_item">
-                                <p class="box-contact_text">Contact Us</p>
+                                <p class="box-contact_text" data-i18n="contactBox.title">Contact Us</p>
                             </li>
                             <li class="box-contact_item">
                                 <a class="box-contact_link" href="tel:+420792558607">+420 792 558 607</a>
@@ -78,7 +83,7 @@
                                 <a class="box-contact_link" href="mailto:contact@dentist.com">contact@dentist.com</a>
                             </li>
                             <li class="box-contact_item">
-                                <a class="box-contact__link" href="">Book an appointment</a>
+                                <a class="box-contact__link" href="" data-i18n="contactBox.book">Book an appointment</a>
                             </li>
                         </ul>
                     </div>
@@ -87,11 +92,11 @@
                             <img class="box-open-hours_img" src="./images/Hours.svg" alt="Open Hours">
                             <ul class="box-open-hours_list">
                                 <li class="box-open-hours_item">
-                                    <p class="box-open-hours_text">Open Hours</p>
+                                    <p class="box-open-hours_text" data-i18n="hoursBox.title">Open Hours</p>
                                 </li>
                                 <li class="box-open-hours_item">
                                     <a class="box-open-hours_link" href="">
-                                        <span>Mon - Fri:</span> 8:00 AM to 17:00 PM
+                                        <span data-i18n="hoursBox.monFri">Mon - Fri:</span> <span data-i18n="hoursBox.time">8:00 AM to 17:00 PM</span>
                                     </a>
                                 </li>
                             </ul>
@@ -102,16 +107,16 @@
                             <img class="box-contant-services_img" src="./images/Services.svg" alt="Services">
                             <ul class="box-contact-services_list">
                                 <li class="box-contact-services_item">
-                                    <p class="box-contact-services_text">Services</p>
+                                    <p class="box-contact-services_text" data-i18n="servicesBox.title">Services</p>
                                 </li>
                                 <li class="box-contact-services_item">
-                                    <a class="box-contact-services_link" href="">Záchovná stomatologie</a>
+                                    <a class="box-contact-services_link" href="" data-i18n="servicesBox.item1">Záchovná stomatologie</a>
                                 </li>
                                 <li class="box-contact-services_item">
-                                    <a class="box-contact-services_link" href="">Protetická stomatologie</a>
+                                    <a class="box-contact-services_link" href="" data-i18n="servicesBox.item2">Protetická stomatologie</a>
                                 </li>
                                 <li class="box-contact-services_item">
-                                    <a class="box-contact-services_link" href="">Chirurgie</a>
+                                    <a class="box-contact-services_link" href="" data-i18n="servicesBox.item3">Chirurgie</a>
                                 </li>
                             </ul>
                         </div>
@@ -123,73 +128,73 @@
         <section class="section-OurServices">
             <div class="container">
                 <div class="our-team_block">
-                    <a class="our-team_block-link" href="./services.html">Our Services</a>
+                    <a class="our-team_block-link" href="./services.html" data-i18n="ourServices.label">Our Services</a>
                     <div class="our-team_dental">
-                        <h2 class="our-team_dental-title">
+                        <h2 class="our-team_dental-title" data-i18n="ourServices.title">
                             Our team of dentists can help with a variety of dental services
                         </h2>
-                        <button class="our-team_dental-btn" type="submit">Book an Appointment</button>
+                        <button class="our-team_dental-btn" type="submit" data-i18n="ourServices.btn">Book an Appointment</button>
                     </div>
                 </div>
                 <div class="services__block">
                     <div class="services_block">
                         <img class="services-cosmetic_img" src="./images/CosmeticDentistry.svg" alt="Cosmetic Dentistry">
                         <div class="services-cosmetic">
-                            <h3 class="services_title">Cosmetic Dentistry</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.cosmetic">Cosmetic Dentistry</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                     <div class="services_block">
                         <img class="services-orthodontics_img" src="./images/Orthodontics.svg" alt="Orthodontics">
                         <div class="services-orthodontics">
-                            <h3 class="services_title">Orthodontics</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.orthodontics">Orthodontics</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                     <div class="services_block">
                         <img class="services-hygiene_img" src="./images/OralHygiene.svg" alt="Oral Hygiene">
                         <div class="services-hygiene">
-                            <h3 class="services_title">Oral Hygiene</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.hygiene">Oral Hygiene</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                     <div class="services_block">
                         <img class="services-treatment_img" src="./images/DentalTreatment.svg" alt="Dental Treatment">
                         <div class="services-treatment">
-                            <h3 class="services_title">Dental Treatment</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.treatment">Dental Treatment</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                     <div class="services_block">
                         <img class="services-surgery_img" src="./images/DentalSurgery.svg" alt="Dental Surgery">
                         <div class="services-surgery">
-                            <h3 class="services_title">Dental Surgery</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.surgery">Dental Surgery</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                     <div class="services_block">
                         <img class="services-implants_img" src="./images/DentalImplants.svg" alt="Dental Implants">
                         <div class="services-implants">
-                            <h3 class="services_title">Dental Implants</h3>
-                            <p class="services_text">
+                            <h3 class="services_title" data-i18n="ourServices.implants">Dental Implants</h3>
+                            <p class="services_text" data-i18n="ourServices.desc">
                                 Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.
                             </p>
-                            <a class="services_link" href="">Learn More</a>
+                            <a class="services_link" href="" data-i18n="ourServices.learnMore">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -204,21 +209,21 @@
                         <img class="block-img_2" src="./images/img_2.png" alt="">
                     </div>
                     <div class="block-mission">
-                        <a class="mission_link" href="./about.html">About Us</a>
-                        <h2 class="mission_title">Our team has only one mission: Make you smile</h2>
-                        <p class="mission_text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. 
+                        <a class="mission_link" href="./about.html" data-i18n="about.label">About Us</a>
+                        <h2 class="mission_title" data-i18n="about.title">Our team has only one mission: Make you smile</h2>
+                        <p class="mission_text" data-i18n="about.text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor.
                             Sed vivamus porttitor tempus
                         </p>
                         <div class="mission-moore">
                             <img class="moore_img" src="./images/AndrewMoore.png" alt="Andrew Moore">
                             <span class="moore_span">
-                                <h3 class="moore_title">Dr.Andrew Moore</h3>
-                                <p class="moore_text">Dentist at Global Dentistry</p>
+                                <h3 class="moore_title" data-i18n="about.doctor">Dr.Andrew Moore</h3>
+                                <p class="moore_text" data-i18n="about.doctorRole">Dentist at Global Dentistry</p>
                             </span>
                         </div>
-                        <button class="mission_btn" type="submit">About our Clinic</button>
+                        <button class="mission_btn" type="submit" data-i18n="about.btn">About our Clinic</button>
                     </div>
                 </div>
             </div>
@@ -228,41 +233,41 @@
             <div class="container">
                 <div class="wrapper-customers">
                     <div class="customers">
-                        <a class="customers_link" href="">Out Customers</a>
-                        <h2 class="customers_title">See what our over 1,000 happy customers have to say</h2>
-                        <p class="customers_text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Tincidunt integer elit cum sed etiam. 
+                        <a class="customers_link" href="" data-i18n="customers.label">Out Customers</a>
+                        <h2 class="customers_title" data-i18n="customers.title">See what our over 1,000 happy customers have to say</h2>
+                        <p class="customers_text" data-i18n="customers.text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Tincidunt integer elit cum sed etiam.
                             Nisl arcu ipsum turpis quisque risus ultrices eget.
                         </p>
                     </div>
                     <div class="customers-block">
                         <div class="customers-sophie">
                             <img class="sophie_img" src="./images/SophieMoore.png" alt="Sophie Moore">
-                            <h3 class="sophie_title">Sophie Moore</h3>
-                            <p class="sophie_text">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <h3 class="sophie_title" data-i18n="customers.name1">Sophie Moore</h3>
+                            <p class="sophie_text" data-i18n="customers.review">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Rhoncus massa felis in sedeol commodo. Augue morbi molestie”
                             </p>
                         </div>
                         <div class="customers-morgan">
                             <img class="morgan_img" src="./images/MorganWoods.png" alt="Morgan Woods">
-                            <h3 class="morgan_title">Morgan Woods</h3>
-                            <p class="morgan_text">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <h3 class="morgan_title" data-i18n="customers.name2">Morgan Woods</h3>
+                            <p class="morgan_text" data-i18n="customers.review">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Rhoncus massa felis in sedeol commodo. Augue morbi molestie”
                             </p>
                         </div>
                         <div class="customers-carter">
                             <img class="carter_img" src="./images/JohnCarter.png" alt="John Carter">
-                            <h3 class="carter_title">John Carter</h3>
-                            <p class="carter_text">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <h3 class="carter_title" data-i18n="customers.name3">John Carter</h3>
+                            <p class="carter_text" data-i18n="customers.review">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Rhoncus massa felis in sedeol commodo. Augue morbi molestie”
                             </p>
                         </div>
                     </div>
-                    <button class="customers_btn" type="submit">Book an Appointment</button>
+                    <button class="customers_btn" type="submit" data-i18n="customers.btn">Book an Appointment</button>
                 </div>
             </div>
         </section>
@@ -271,11 +276,11 @@
             <div class="container">
                 <div class="wrapper-resources">
                     <div class="resources">
-                        <a class="resources_link" href="">Resources</a>
-                        <h2 class="resources_title">Our articles on dental health</h2>
-                        <p class="resources_text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Tincidunt integer elit cum sed etiam. 
+                        <a class="resources_link" href="" data-i18n="resources.label">Resources</a>
+                        <h2 class="resources_title" data-i18n="resources.title">Our articles on dental health</h2>
+                        <p class="resources_text" data-i18n="resources.text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Tincidunt integer elit cum sed etiam.
                             Nisl arcu ipsum turpis quisque risus ultrices eget.
                         </p>
                     </div>
@@ -283,42 +288,42 @@
                         <div class="resources-braces">
                             <img class="braces_img" src="./images/braces.png" alt="Braces">
                             <div class="braces-box">
-                                <h3 class="braces_title">4 things to consider before getting teeth braces</h3>
-                                <p class="braces_text">
+                                <h3 class="braces_title" data-i18n="resources.article1.title">4 things to consider before getting teeth braces</h3>
+                                <p class="braces_text" data-i18n="resources.article1.text">
                                     Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit,
                                     sed do eiusmod tempor.
                                 </p>
                                 <span class="braces_span">
-                                    <p class="braces-span_text">March, 19, 2021</p>
-                                    <a class="braces-span_link" href="">Read More</a>
+                                    <p class="braces-span_text" data-i18n="resources.date">March, 19, 2021</p>
+                                    <a class="braces-span_link" href="" data-i18n="resources.readMore">Read More</a>
                                 </span>
                             </div>
                         </div>
                         <div class="resources-toothbrush">
                             <img class="toothbrush_img" src="./images/toothbrush.png" alt="Toothbrush">
                             <div class="toothbrush-box">
-                                <h3 class="toothbrush_title">How often should I replace my toothbrush?</h3>
-                                <p class="toothbrush_text">
+                                <h3 class="toothbrush_title" data-i18n="resources.article2.title">How often should I replace my toothbrush?</h3>
+                                <p class="toothbrush_text" data-i18n="resources.article2.text">
                                     Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit,
                                     sed do eiusmod tempor.
                                 </p>
                                 <span class="toothbrush_span">
-                                    <p class="toothbrush-span_text">March, 19, 2021</p>
-                                    <a class="toothbrush-span_link" href="">Read More</a>
+                                    <p class="toothbrush-span_text" data-i18n="resources.date">March, 19, 2021</p>
+                                    <a class="toothbrush-span_link" href="" data-i18n="resources.readMore">Read More</a>
                                 </span>
                             </div>
                         </div>
                         <div class="resources-great">
                             <img class="great_img" src="./images/great.png" alt="Great">
                             <div class="great-box">
-                                <h3 class="great_title">6 great tips to keep your teeth healthy and safe</h3>
-                                <p class="great_text">
+                                <h3 class="great_title" data-i18n="resources.article3.title">6 great tips to keep your teeth healthy and safe</h3>
+                                <p class="great_text" data-i18n="resources.article3.text">
                                     Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit,
                                     sed do eiusmod tempor.
                                 </p>
                                 <span class="great_span">
-                                    <p class="great-span_text">March, 19, 2021</p>
-                                    <a class="great-span_link" href="">Read More</a>
+                                    <p class="great-span_text" data-i18n="resources.date">March, 19, 2021</p>
+                                    <a class="great-span_link" href="" data-i18n="resources.readMore">Read More</a>
                                 </span>
                             </div>
                         </div>
@@ -331,10 +336,10 @@
             <div class="container">
                 <div class="wrapper-contactUs">
                     <div class="contactUs-block">
-                        <a class="contactUs-link" href="./contact.html">Contact Us</a>
-                        <h2 class="contactUs-title">Get in touch to book your first appointment</h2>
-                        <p class="contactUs-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a class="contactUs-link" href="./contact.html" data-i18n="contactUs.label">Contact Us</a>
+                        <h2 class="contactUs-title" data-i18n="contactUs.title">Get in touch to book your first appointment</h2>
+                        <p class="contactUs-text" data-i18n="contactUs.text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Tincidunt integer elit cum sed etiam nisl arcu.
                         </p>
                         <address class="contactUs-sddress">
@@ -359,33 +364,33 @@
                             <ul class="form-list">
                                 <div class="form-box_1">
                                     <li class="form-item">
-                                        <label class="form-label">Name</label>
-                                        <input class="form-input" type="text" placeholder="Full Name">
+                                        <label class="form-label" data-i18n="contactUs.name">Name</label>
+                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.namePh" placeholder="Full Name">
                                     </li>
                                     <li class="form-item">
-                                        <label class="form-label">Email Address</label>
-                                        <input class="form-input" type="text" placeholder="email@example.com">
+                                        <label class="form-label" data-i18n="contactUs.email">Email Address</label>
+                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.emailPh" placeholder="email@example.com">
                                     </li>
                                 </div>
                                 <div class="form-box_2">
                                     <li class="form-item">
-                                        <label class="form-label">Phone Number</label>
-                                        <input class="form-input" type="text" placeholder="(123) - 840 3987">
+                                        <label class="form-label" data-i18n="contactUs.phone">Phone Number</label>
+                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.phonePh" placeholder="(123) - 840 3987">
                                     </li>
                                     <li class="form-item">
-                                        <label class="form-label">Service</label>
+                                        <label class="form-label" data-i18n="contactUs.service">Service</label>
                                         <a class="form-link" href="#">
-                                            <input class="form-input" type="text" placeholder="Service">
+                                            <input class="form-input" type="text" data-i18n-placeholder="contactUs.servicePh" placeholder="Service">
                                             <img class="form-img" src="./images/ChevronDown.svg" alt="Chevron Down">
                                         </a>
                                     </li>
                                 </div>
                             </ul>
                             <div class="form_box">
-                                <label class="form-label">Message</label>    
-                                <textarea class="form-textarea" placeholder="Please describe what service you are interested in..."></textarea>
+                                <label class="form-label" data-i18n="contactUs.message">Message</label>
+                                <textarea class="form-textarea" data-i18n-placeholder="contactUs.messagePh" placeholder="Please describe what service you are interested in..."></textarea>
                             </div>
-                            <button class="form-btn" type="submit">Submit</button>
+                            <button class="form-btn" type="submit" data-i18n="contactUs.submit">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -397,76 +402,76 @@
         <div class="container">
             <div class="wrapper-footer">
                 <div class="subscribe">
-                    <h2 class="subscribe-title">Subscribe to our Newsletter</h2>
-                    <p class="subscribe-text">
+                    <h2 class="subscribe-title" data-i18n="footer.subscribeTitle">Subscribe to our Newsletter</h2>
+                    <p class="subscribe-text" data-i18n="footer.subscribeText">
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
                     </p>
                     <form class="subscribe-form">
-                        <input class="subscribe-input" type="text" placeholder="Enter your email">
-                        <button class="subscribe-btn" type="submit">Subscribe</button>
+                        <input class="subscribe-input" type="text" data-i18n-placeholder="footer.emailPh" placeholder="Enter your email">
+                        <button class="subscribe-btn" type="submit" data-i18n="footer.subscribeBtn">Subscribe</button>
                     </form>
                 </div>
                 <div class="menu">
-                    <p class="menu-text">Menu</p>
+                    <p class="menu-text" data-i18n="footer.menu">Menu</p>
                     <div class="menu-box">
                         <ul class="menu-list">
                             <li class="menu-item">
-                                <a class="menu-link" href="./index.html">Home</a>
+                                <a class="menu-link" href="./index.html" data-i18n="nav.home">Home</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./about.html">About Us</a>
+                                <a class="menu-link" href="./about.html" data-i18n="nav.about">About Us</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./services.html">Services</a>
+                                <a class="menu-link" href="./services.html" data-i18n="nav.services">Services</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./serviceSingle.html">Services Single</a>
+                                <a class="menu-link" href="./serviceSingle.html" data-i18n="footer.servicesSingle">Services Single</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="">Blog</a>
+                                <a class="menu-link" href="" data-i18n="footer.blog">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="">Blog Post</a>
+                                <a class="menu-link" href="" data-i18n="footer.blogPost">Blog Post</a>
                             </li>
                         </ul>
                         <ul class="menu_list">
                             <li class="menu_item">
-                                <a class="menu_link" href="./contact.html">Contact</a>
+                                <a class="menu_link" href="./contact.html" data-i18n="footer.contactPage">Contact</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_link" href="./plans.html">Plans</a>
+                                <a class="menu_link" href="./plans.html" data-i18n="nav.prices" data-i18n="footer.plans">Plans</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_link" href="./plansSingle.html">Plans Single</a>
+                                <a class="menu_link" href="./plansSingle.html" data-i18n="footer.plansSingle">Plans Single</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="pages">
-                    <p class="pages-text">Utility Pages</p>
+                    <p class="pages-text" data-i18n="footer.utilityPages">Utility Pages</p>
                     <ul class="pages-list">
                         <li class="pages-item">
-                            <a class="pages-link" href="">Styleguide</a>
+                            <a class="pages-link" href="" data-i18n="footer.styleguide">Styleguide</a>
                         </li>
                         <li class="pages-item">
-                            <a class="pages-link" href="">Password Protected</a>
+                            <a class="pages-link" href="" data-i18n="footer.passwordProtected">Password Protected</a>
                         </li>
                         <li class="pages-item">
-                            <a class="pages-link" href="">404 Not Found</a>
+                            <a class="pages-link" href="" data-i18n="footer.notFound">404 Not Found</a>
                         </li>
                         <li class="pages-item">
-                            <a class="pages-link" href="">Start Here</a>
+                            <a class="pages-link" href="" data-i18n="footer.startHere">Start Here</a>
                         </li>
                         <li class="pages-item">
-                            <a class="pages-link" href="">Licenses</a>
+                            <a class="pages-link" href="" data-i18n="footer.licenses">Licenses</a>
                         </li>
                         <li class="pages-item">
-                            <a class="pages-link" href="">Changelog</a>
+                            <a class="pages-link" href="" data-i18n="footer.changelog">Changelog</a>
                         </li>
                     </ul>
                 </div>
                 <div class="contact">
-                    <p class="contact-text">Contact</p>
+                    <p class="contact-text" data-i18n="footer.contact">Contact</p>
                     <address class="contact-address">
                         <ul class="contact-list">
                             <li class="contact-item">
@@ -483,7 +488,7 @@
                             </li>
                             <li class="contact-item">
                                 <img src="./images/point.svg" alt="">
-                                <p>24 Broadcast Drive Charlotte  NC 28202, USA</p>
+                                <p data-i18n="footer.address">24 Broadcast Drive Charlotte  NC 28202, USA</p>
                             </li>
                         </ul>
                     </address>
@@ -533,9 +538,10 @@
                         </a>
                     </li>
                 </ul>
-                <p class="footer-box__text">Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span></p>
+                <p class="footer-box__text" data-i18n="footer.copyright">Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span></p>
             </div>
         </div>
     </footer>
+    <script type="module" src="js/i18next.js"></script>
 </body>
 </html>

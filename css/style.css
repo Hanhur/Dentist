@@ -1109,3 +1109,14 @@ body
 {
     color: var(--colors-Primary-Accent);
 }
+/* =========================================================================================== */
+.lang-select 
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid var(--colors-Neutral-300);
+    border-radius: 12px;
+    color: var(--colors-Neutral-800);
+    cursor: pointer;
+}
