@@ -34,7 +34,7 @@
     width: 251px;
     height: 68px;
     border-radius: 12px;
-    padding: 24px 32px;
+    padding: 24px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }

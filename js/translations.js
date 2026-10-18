@@ -27,17 +27,24 @@ export const translations = {
         "servicesBox.item1": "Záchovná stomatologie",
         "servicesBox.item2": "Protetická stomatologie",
         "servicesBox.item3": "Chirurgie",
+        "servicesBox.item4": "Dentální hygiena",
 
         // OUR SERVICES
         "ourServices.label": "Naše služby",
-        "ourServices.title": "Náš tým zubních lékařů vám pomůže s různými stomatologickými službami",
+        "ourServices.title": "Naším cílem je zajištění nejlepší stomatologické péče pro Vás",
         "ourServices.btn": "Rezervovat termín",
+
         "ourServices.cosmetic": "Kosmetická stomatologie",
         "ourServices.orthodontics": "Ortodoncie",
         "ourServices.hygiene": "Ústní hygiena",
         "ourServices.treatment": "Stomatologická léčba",
-        "ourServices.surgery": "Zubní chirurgie",
+        "ourServices.surgeryDental": "Zubní chirurgie",
         "ourServices.implants": "Zubní implantáty",
+
+        "ourServices.therapeutic": "Záchovná stomatologie",
+        "ourServices.prosthetic": "Protetická stomatologie",
+        "ourServices.surgery": "Chirurgie",
+        "ourServices.prevention": "Dentální hygiena",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Zjistit více",
 
@@ -180,20 +187,27 @@ export const translations = {
 
         // SERVICES BOX
         "servicesBox.title": "Послуги",
-        "servicesBox.item1": "Відновна стоматологія",
-        "servicesBox.item2": "Протетична стоматологія",
+        "servicesBox.item1": "Терапевтична стоматологія",
+        "servicesBox.item2": "Ортопедична стоматологія",
         "servicesBox.item3": "Хірургія",
+        "servicesBox.item4": "Профілактика",
 
         // OUR SERVICES
         "ourServices.label": "Наші послуги",
-        "ourServices.title": "Наша команда стоматологів допоможе з різноманітними стоматологічними послугами",
+        "ourServices.title": "Метою нашої команди є забезпечення Вам найкращого стоматологічного лікування та профілактики",
         "ourServices.btn": "Записатися на прийом",
+
         "ourServices.cosmetic": "Косметична стоматологія",
         "ourServices.orthodontics": "Ортодонтія",
         "ourServices.hygiene": "Гігієна порожнини рота",
         "ourServices.treatment": "Стоматологічне лікування",
-        "ourServices.surgery": "Хірургія зубів",
+        "ourServices.surgeryDental": "Хірургія зубів",
         "ourServices.implants": "Зубні імплантати",
+
+        "ourServices.therapeutic": "Терапевтична стоматологія",
+        "ourServices.prosthetic": "Ортопедична стоматологія",
+        "ourServices.surgery": "Хірургія",
+        "ourServices.prevention": "Профілактика",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Дізнатися більше",
 
@@ -335,20 +349,27 @@ export const translations = {
 
         // SERVICES BOX
         "servicesBox.title": "Services",
-        "servicesBox.item1": "Restorative Dentistry",
+        "servicesBox.item1": "Therapeutic Dentistry",
         "servicesBox.item2": "Prosthetic Dentistry",
         "servicesBox.item3": "Surgery",
+        "servicesBox.item4": "Prevention",
 
         // OUR SERVICES
         "ourServices.label": "Our Services",
-        "ourServices.title": "Our team of dentists can help with a variety of dental services",
+        "ourServices.title": "The Goal of our team is implantation your best dental care",
         "ourServices.btn": "Book an Appointment",
+
         "ourServices.cosmetic": "Cosmetic Dentistry",
         "ourServices.orthodontics": "Orthodontics",
         "ourServices.hygiene": "Oral Hygiene",
         "ourServices.treatment": "Dental Treatment",
-        "ourServices.surgery": "Dental Surgery",
+        "ourServices.surgeryDental": "Dental Surgery",
         "ourServices.implants": "Dental Implants",
+
+        "ourServices.therapeutic": "Therapeutic Dentistry",
+        "ourServices.prosthetic": "Prosthetic Dentistry",
+        "ourServices.surgery": "Surgery",
+        "ourServices.prevention": "Prevention",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Learn More",
 

@@ -198,23 +198,23 @@
     display: flex;
     gap: 0 24px;
 }
-.box_btn-1
+.box_btn-1,
+.box_btn-2
 {
     font-weight: 700;
     line-height: 1.1;
     border-radius: 12px;
-    padding: 32px 24px;
+    padding: 24px;
     width: 251px;
+    height: 68px;
+    text-align: center;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
 .box_btn-2
 {
-    line-height: 1.1;
-    padding: 32px 24px;
-    border-radius: 12px;
-    width: 201px;
     color: var(--colors-Primary-Accent);
+    background-color: var(--colors-Neutral-100);
     border: 1px solid var(--colors-Neutral-300);
 }
 /* ========================================= Our Team =============================== */
