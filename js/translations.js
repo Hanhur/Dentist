@@ -34,12 +34,7 @@ export const translations = {
         "ourServices.title": "Naším cílem je zajištění nejlepší stomatologické péče pro Vás",
         "ourServices.btn": "Rezervovat termín",
 
-        "ourServices.cosmetic": "Kosmetická stomatologie",
-        "ourServices.orthodontics": "Ortodoncie",
-        "ourServices.hygiene": "Ústní hygiena",
-        "ourServices.treatment": "Stomatologická léčba",
-        "ourServices.surgeryDental": "Zubní chirurgie",
-        "ourServices.implants": "Zubní implantáty",
+        "ourServices.consultation": "Konzultace",
 
         "ourServices.therapeutic": "Záchovná stomatologie",
         "ourServices.prosthetic": "Protetická stomatologie",
@@ -88,7 +83,7 @@ export const translations = {
         "contactUs.email": "E-mailová adresa",
         "contactUs.emailPh": "email@example.com",
         "contactUs.phone": "Telefonní číslo",
-        "contactUs.phonePh": "(123) - 840 3987",
+        "contactUs.phonePh": "+420 792 558 607",
         "contactUs.service": "Služba",
         "contactUs.servicePh": "Služba",
         "contactUs.message": "Zpráva",
@@ -115,7 +110,7 @@ export const translations = {
         "footer.startHere": "Začněte zde",
         "footer.licenses": "Licence",
         "footer.changelog": "Změny",
-        "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
+        "footer.address": "Plynární 1032/29, 170 00 Praha 7",
         "footer.copyright": "Copyright &copy; Dentist Navrhl <span>BRIX Templates</span> - Běží na <span>Webflow</span>",
 
         // PLANS
@@ -197,12 +192,7 @@ export const translations = {
         "ourServices.title": "Метою нашої команди є забезпечення Вам найкращого стоматологічного лікування та профілактики",
         "ourServices.btn": "Записатися на прийом",
 
-        "ourServices.cosmetic": "Косметична стоматологія",
-        "ourServices.orthodontics": "Ортодонтія",
-        "ourServices.hygiene": "Гігієна порожнини рота",
-        "ourServices.treatment": "Стоматологічне лікування",
-        "ourServices.surgeryDental": "Хірургія зубів",
-        "ourServices.implants": "Зубні імплантати",
+        "ourServices.consultation": "Консультація",
 
         "ourServices.therapeutic": "Терапевтична стоматологія",
         "ourServices.prosthetic": "Ортопедична стоматологія",
@@ -251,7 +241,7 @@ export const translations = {
         "contactUs.email": "Електронна адреса",
         "contactUs.emailPh": "email@example.com",
         "contactUs.phone": "Номер телефону",
-        "contactUs.phonePh": "(123) - 840 3987",
+        "contactUs.phonePh": "+420 792 558 607",
         "contactUs.service": "Послуга",
         "contactUs.servicePh": "Послуга",
         "contactUs.message": "Повідомлення",
@@ -278,7 +268,7 @@ export const translations = {
         "footer.startHere": "Почніть тут",
         "footer.licenses": "Ліцензії",
         "footer.changelog": "Журнал змін",
-        "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
+        "footer.address": "Plynární 1032/29, 170 00 Praha 7",
         "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>",
 
         // PLANS
@@ -359,12 +349,7 @@ export const translations = {
         "ourServices.title": "The Goal of our team is implantation your best dental care",
         "ourServices.btn": "Book an Appointment",
 
-        "ourServices.cosmetic": "Cosmetic Dentistry",
-        "ourServices.orthodontics": "Orthodontics",
-        "ourServices.hygiene": "Oral Hygiene",
-        "ourServices.treatment": "Dental Treatment",
-        "ourServices.surgeryDental": "Dental Surgery",
-        "ourServices.implants": "Dental Implants",
+        "ourServices.consultation": "Consultation",
 
         "ourServices.therapeutic": "Therapeutic Dentistry",
         "ourServices.prosthetic": "Prosthetic Dentistry",
@@ -413,7 +398,7 @@ export const translations = {
         "contactUs.email": "Email Address",
         "contactUs.emailPh": "email@example.com",
         "contactUs.phone": "Phone Number",
-        "contactUs.phonePh": "(123) - 840 3987",
+        "contactUs.phonePh": "+420 792 558 607",
         "contactUs.service": "Service",
         "contactUs.servicePh": "Service",
         "contactUs.message": "Message",
@@ -440,7 +425,7 @@ export const translations = {
         "footer.startHere": "Start Here",
         "footer.licenses": "Licenses",
         "footer.changelog": "Changelog",
-        "footer.address": "24 Broadcast Drive Charlotte  NC 28202, USA",
+        "footer.address": "Plynarni 1032/29, 170 00 Praha 7",
         "footer.copyright": "Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span>",
 
         // PLANS

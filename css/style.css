@@ -358,61 +358,32 @@ body
 .services__block
 {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
     flex-wrap: wrap;
-    gap: 26px 40px;
-    justify-content: center;
 }
 .services_block
 {
     display: flex;
     flex-direction: column;
     border-radius: 32px;
-    width: 390px;
-    height: 464px;
+    width: 465px;
     border: 1px solid var(--colors-Neutral-300);
 }
-.services-cosmetic_img
-{
-    padding: 44px 120px;
-    border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
-}
-.services-orthodontics_img
-{
-    padding: 66px 140px;
-    border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
-}
-.services-hygiene_img
+.services-treatment_img,
+.services-prosthetic_img,
+.services-surgery_img,
+.services-prevention_img
 {
     padding: 45px 127px 56px 144px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-100);
 }
-.services-treatment_img
-{
-    padding: 49px 147px 72px 150px;
-    border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
-}
-.services-surgery_img
-{
-    padding: 66px 133px;
-    border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
-}
-.services-implants_img
-{
-    padding: 58px 160px;
-    border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
-}
-.services-cosmetic,
-.services-orthodontics,
-.services-hygiene,
 .services-treatment,
+.services-prosthetic,
 .services-surgery,
-.services-implants
+.services-prevention
 {
     display: flex;
     flex-direction: column;
@@ -424,7 +395,7 @@ body
     font-size: 24px;
     line-height: 1.2;
     color: var(--colors-Neutral-800);
-    margin-bottom: 6px;
+    margin-bottom: 15px;
 }
 .services_text
 {
