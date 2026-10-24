@@ -897,8 +897,13 @@ body
     line-height: 1.1;
     padding: 24px 32px;
     border-radius: 12px;
+    margin-bottom: 20px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
+}
+.form-status
+{
+    color: var(--colors-Neutral-600);
 }
 /* ========================================= Footer ============================ */
 .wrapper-footer

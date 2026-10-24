@@ -228,27 +228,27 @@
                         </address>
                     </div>
                     <div class="contactUs-form">
-                        <form class="form-contactUs">
+                        <form class="form-contactUs" id="chatBotForm" novalidate>
                             <ul class="form-list">
                                 <div class="form-box_1">
                                     <li class="form-item">
-                                        <label class="form-label" data-i18n="contactUs.name">Name</label>
-                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.namePh" placeholder="Full Name">
+                                        <label class="form-label" for="cb-name" data-i18n="contactUs.name">Name</label>
+                                        <input class="form-input" id="cb-name" name="name" type="text" data-i18n-placeholder="contactUs.namePh" placeholder="Full Name" required>
                                     </li>
                                     <li class="form-item">
-                                        <label class="form-label" data-i18n="contactUs.email">Email Address</label>
-                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.emailPh" placeholder="email@example.com">
+                                        <label class="form-label" for="cb-email" data-i18n="contactUs.email">Email Address</label>
+                                        <input class="form-input" id="cb-email" name="email" type="email" data-i18n-placeholder="contactUs.emailPh" placeholder="email@example.com" required>
                                     </li>
                                 </div>
                                 <div class="form-box_2">
                                     <li class="form-item">
-                                        <label class="form-label" data-i18n="contactUs.phone">Phone Number</label>
-                                        <input class="form-input" type="text" data-i18n-placeholder="contactUs.phonePh" placeholder="+420 792 558 607">
+                                        <label class="form-label" for="cb-phone" data-i18n="contactUs.phone">Phone Number</label>
+                                        <input class="form-input" id="cb-phone" name="phone" type="tel" data-i18n-placeholder="contactUs.phonePh" placeholder="+420 792 558 607" required>
                                     </li>
                                     <li class="form-item">
-                                        <label class="form-label" data-i18n="contactUs.service">Service</label>
+                                        <label class="form-label" for="cb-service" data-i18n="contactUs.service">Service</label>
                                         <div class="form-select-wrapper">
-                                            <select class="form-input form-select" name="service" data-i18n-select="serviceOptions">
+                                            <select class="form-input form-select" id="cb-service" name="service" data-i18n-select="serviceOptions" required>
                                                 <option value="" data-i18n="contactUs.servicePh" disabled selected>Service</option>
                                                 <option value="consultation" data-i18n="ourServices.consultation">Consultation</option>
                                             </select>
@@ -258,10 +258,12 @@
                                 </div>
                             </ul>
                             <div class="form_box">
-                                <label class="form-label" data-i18n="contactUs.message">Message</label>
-                                <textarea class="form-textarea" data-i18n-placeholder="contactUs.messagePh" placeholder="Please describe what service you are interested in..."></textarea>
+                                <label class="form-label" for="cb-message" data-i18n="contactUs.message">Message</label>
+                                <textarea class="form-textarea" id="cb-message" name="message" data-i18n-placeholder="contactUs.messagePh" placeholder="Please describe what service you are interested in..."></textarea>
                             </div>
                             <button class="form-btn" type="submit" data-i18n="contactUs.submit">Submit</button>
+                            <!-- Сообщение о статусе -->
+                            <p class="form-status" id="cb-status" role="status" aria-live="polite"></p>
                         </form>
                     </div>
                 </div>
@@ -414,5 +416,6 @@
         </div>
     </footer>
     <script type="module" src="js/i18next.js"></script>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>

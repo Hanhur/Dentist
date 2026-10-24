@@ -1,0 +1,36 @@
+// bot-translations.js
+export const botTranslations = {
+    cs: {
+        header: '📩 <b>Nová poptávka z webu</b>',
+        name: '👤 <b>Jméno:</b>',
+        email: '📧 <b>Email:</b>',
+        phone: '📞 <b>Telefon:</b>',
+        service: '🛠 <b>Služba:</b>',
+        message: '💬 <b>Zpráva:</b>',
+        sending: 'Odesílání...',
+        success: '✅ Zpráva byla odeslána! Brzy se vám ozveme.',
+        error: '❌ Odeslání se nezdařilo. Zkuste to prosím později.',
+    },
+    uk: {
+        header: '📩 <b>Нова заявка з сайту</b>',
+        name: '👤 <b>Ім\'я:</b>',
+        email: '📧 <b>Електронна адреса:</b>',
+        phone: '📞 <b>Телефон:</b>',
+        service: '🛠 <b>Послуга:</b>',
+        message: '💬 <b>Повідомлення:</b>',
+        sending: 'Надсилання...',
+        success: '✅ Повідомлення надіслано! Ми незабаром зв\'яжемося з вами.',
+        error: '❌ Не вдалося надіслати. Спробуйте пізніше.',
+    },
+    en: {
+        header: '📩 <b>New request from the website</b>',
+        name: '👤 <b>Name:</b>',
+        email: '📧 <b>Email:</b>',
+        phone: '📞 <b>Phone:</b>',
+        service: '🛠 <b>Service:</b>',
+        message: '💬 <b>Message:</b>',
+        sending: 'Sending...',
+        success: '✅ Message sent! We will contact you soon.',
+        error: '❌ Failed to send. Please try again later.',
+    },
+};
