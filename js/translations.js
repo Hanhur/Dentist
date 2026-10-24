@@ -155,6 +155,52 @@ export const translations = {
         "team.member2.name": "Clark Howell",
         "team.member3.name": "Kate Fuller",
         "team.member4.name": "Arthur Wade",
+
+        // SINGLE: THERAPEUTIC DENTISTRY
+        "single.therapeutic.title": "Záchovná stomatologie",
+        "single.therapeutic.intro": "Záchovná stomatologie je základní obor stomatologie, který se zabývá diagnostikou, prevencí a léčbou onemocnění zubů a tkání dutiny ústní bez použití chirurgických zákroků (jako je extrakce nebo implantace).",
+        "single.therapeutic.aboutTitle": "O službě",
+        "single.therapeutic.aboutText": "Cílem záchovné stomatologie je zachovat zuby a vyhnout se jejich extrakci, tedy vytržení. Klade důraz na prevenci a šetrné řešení problémů. Řešení musí být navíc plně funkční, aby se na zub dalo kousat, a také estetické. Obnova vypadá zcela přirozeně.",
+        "single.therapeutic.item1": "Kariologie — léčba kazů různého stupně a obnova tvaru zubu pomocí výplňových materiálů.",
+        "single.therapeutic.item2": "Endodoncie — diagnostika a léčba onemocnění dřeně (nervu) a kořenových kanálků (čištění, dezinfekce a plnění kanálků).",
+        "single.therapeutic.item3": "Nekariézní léze — léčba erozí skloviny, klínovitých defektů, hypersenzitivity (zvýšené citlivosti) a patologického opotřebení.",
+        "single.therapeutic.item4": "Parodontologie — prevence a léčba onemocnění dásní a tkání obklopujících zub (gingivitida, parodontitida).",
+        "single.therapeutic.item5": "Speciální stomatologie / sliznice — léčba stomatitid, onemocnění sliznice dutiny ústní a slinných žláz.",
+
+        // SINGLE: PROSTHETIC DENTISTRY
+        "single.prosthetic.title": "Protetická stomatologie",
+        "single.prosthetic.intro": "Protetická stomatologie je obor stomatologie, který se zabývá diagnostikou, prevencí a obnovou poškozených, zničených nebo ztracených zubů pomocí protetiky.",
+        "single.prosthetic.aboutTitle": "O službě",
+        "single.prosthetic.aboutText": "Protetická stomatologie se zabývá problematikou rekonstrukce zničených zubů, prevencí jejich dalšího poškozování a obnovou drobných poškození. Řeší rekonstrukci ztracených zubů pomocí protetiky. Která z nabízených metod protetiky je pro konkrétního pacienta vhodná, rozhoduje lékař na základě faktorů, jako je míra poškození zubu, jeho umístění a přání a možnosti pacienta.",
+        "single.prosthetic.item1": "Inleje — varianta, která nahrazuje výplně. Vyplňují existující kazovou dutinu a těsně přiléhají ke stěnám a bokům. Dělají zub krásným a velmi pevným, v průběhu let nemění původní barvu.",
+        "single.prosthetic.item2": "Veneers — varianta, která se lepí na přední povrch korunky. Vyžadují předchozí mírné broušení. Zvládají jen méně závažné změny — odštěpky, praskliny, nevzhledné výplně, změnu odstínu skloviny.",
+        "single.prosthetic.item3": "Protetika na zubních implantátech — varianta indikovaná při úplné i částečné ztrátě špičáků, molárů, řezáků.",
+        "single.prosthetic.item4": "Korunky — varianta, pokud je korunková část silně poškozena a kořeny jsou v uspokojivém stavu. Vyrábějí se z kovu, plastu, keramiky, zirkonia, drahých kovů. Materiál se volí s ohledem na požadovanou pevnost a požadovaný vizuální efekt.",
+        "single.prosthetic.item5": "Můstkové konstrukce — varianta, pokud chybí jedna nebo několik sousedících jednotek.",
+
+        // SINGLE: SURGERY
+        "single.surgery.title": "Chirurgie",
+        "single.surgery.intro": "Zubní chirurg je specializovaný lékař, který se zabývá operační léčbou onemocnění a patologií dutiny ústní, čelistí a měkkých tkání obličeje.",
+        "single.surgery.aboutTitle": "O službě",
+        "single.surgery.aboutText": "Chirurgie dutiny ústní je jakýkoli chirurgický zákrok prováděný v ústech: extrakce zubů, implantace a transplantace tkání. Je to široký pojem, který popisuje jakýkoli zákrok provedený v ústech.",
+        "single.surgery.item1": "Extrakce zubů — včetně složitých extrakcí zubů moudrosti.",
+        "single.surgery.item2": "Chirurgické odstranění cyst, nádorů a ložisek zánětu.",
+        "single.surgery.item3": "Zavedení zubních implantátů — včetně přípravy kostního lůžka.",
+        "single.surgery.item4": "Resekce hrotů kořenů — v případě neúspěšné endodontické léčby.",
+        "single.surgery.item5": "Předprotetická chirurgie — korekce měkkých a tvrdých tkání před zavedením protéz.",
+        "single.surgery.item6": "Parodontologické zákroky — chirurgická léčba parodontitidy.",
+
+        // SINGLE: PREVENTION
+        "single.prevention.title": "Dentální hygiena",
+        "single.prevention.intro": "Stomatologická prevence je soubor opatření zaměřených na předcházení onemocněním zubů a dásní, zachování skloviny a vyhnutí se drahé léčbě.",
+        "single.prevention.aboutTitle": "O službě",
+        "single.prevention.aboutText": "Včasná prevence onemocnění zubů a dásní je nejdůležitější etapou komplexní péče o dutinu ústní. Pravidelná a správná prevence stomatologických problémů nejen zachová zdraví, ale také ušetří rozpočet. Podívejme se, jak správně pečovat o zuby, abychom se vyhnuli různým onemocněním a dlouhodobé léčbě.",
+        "single.prevention.item1": "Primární — zaměřená na předcházení onemocněním. Je to nejprogresivnější forma, která zahrnuje soubor opatření na ochranu organismu a zvýšení jeho odolnosti. Pacient tak minimalizuje riziko vzniku zdravotních problémů.",
+        "single.prevention.item2": "Sekundární — předchází komplikacím po léčbě a pomáhá diagnostikovat onemocnění v rané fázi.",
+        "single.prevention.item3": "Terciární — rehabilitace a obnova funkce poškozeného orgánu pro zachování funkcí maxilofaciálního aparátu.",
+        "single.prevention.item4": "Hygiena dutiny ústní speciálními prostředky a přístroji, leštění zubů a odstranění zubního plaku — doporučuje se pacientům nejméně dvakrát ročně.",
+        "single.prevention.item5": "Prevence kazů fluoridem — činí sklovinu pevnější a brání aktivnímu množení patogenních bakterií.",
+        "single.prevention.item6": "Pečetění fisur — účinná metoda prevence kazů, zejména u dětí, u kterých se teprve začínají formovat stálé žvýkací zuby.",
     },
 
     uk: {
@@ -313,6 +359,52 @@ export const translations = {
         "team.member2.name": "Кларк Гауелл",
         "team.member3.name": "Кейт Фуллер",
         "team.member4.name": "Артур Вейд",
+
+        // SINGLE: THERAPEUTIC DENTISTRY
+        "single.therapeutic.title": "Терапевтична стоматологія",
+        "single.therapeutic.intro": "Терапевтична стоматологія — це базовий розділ стоматології, який займається діагностикою, профілактикою та лікуванням захворювань зубів і тканин порожнини рота без використання хірургічних операцій (таких як видалення чи імплантація).",
+        "single.therapeutic.aboutTitle": "Про послугу",
+        "single.therapeutic.aboutText": "Мета терапевтичної стоматології полягає в тому, щоб зберегти зуби й уникнути їх екстракції, тобто видалення. Вона робить акцент на профілактиці й делікатному розв'язанні проблем. Крім того, рішення має бути таким, щоб результат був повністю функціональним, щоб на зуб можна було жувати, а також естетичним. Відновлення виглядає цілком природно.",
+        "single.therapeutic.item1": "Карієсологія — лікування карієсу різного ступеня та відновлення форми зуба за допомогою пломбувальних матеріалів.",
+        "single.therapeutic.item2": "Ендодонтія — діагностика та лікування захворювань пульпи (нерва) та кореневих каналів (чистка, дезінфекція та пломбування каналів).",
+        "single.therapeutic.item3": "Некаріозні ураження — лікування ерозій емалі, клиноподібних дефектів, гіперестезії (підвищеної чутливості) та патологічної стертості.",
+        "single.therapeutic.item4": "Пародонтологія — профілактика і терапія хвороб ясен та тканин, що оточують зуб (гінгівіт, пародонтит).",
+        "single.therapeutic.item5": "Спеціальна стоматологія / слизова оболонка — лікування стоматитів, захворювань слизової оболонки рота та слинних залоз.",
+
+        // SINGLE: PROSTHETIC DENTISTRY
+        "single.prosthetic.title": "Ортопедична стоматологія",
+        "single.prosthetic.intro": "Ортопедична стоматологія — це розділ стоматології, який займається діагностикою, профілактикою та відновленням зруйнованих, пошкоджених або втрачених зубів за допомогою протезування.",
+        "single.prosthetic.aboutTitle": "Про послугу",
+        "single.prosthetic.aboutText": "Ортопедична стоматологія займається проблемою реставрації зруйнованих зубів, профілактикою подальшого руйнування, відновленням невеликих пошкоджень. Вона вирішує завдання реконструкції втрачених зубів, використовуючи метод протезування. Який із запропонованих методів протезування підходить для конкретного пацієнта, вирішується лікарем виходячи з таких факторів, як ступінь руйнування зуба, його розташування, бажання і можливість хворого.",
+        "single.prosthetic.item1": "Вкладки — це варіант, який замінює пломби. Заповнюють собою наявну каріозну порожнину, щільно прилягають до і боків. Роблять зуб красивим та дуже міцним, з роками не змінюють початковий колір.",
+        "single.prosthetic.item2": "Вініри — це варіант, що наклеюється на передню поверхню коронки. Вимагають попереднього незначного обточування. Справляються лише з несерйозними змінами — сколами, тріщинами, негарними пломбами, зміною відтінку емалі.",
+        "single.prosthetic.item3": "Протезування на зубних імплантах — це варіант, що показаний при повній і частковій втраті іклів, молярів, різців.",
+        "single.prosthetic.item4": "Коронки — це варіант, якщо коронкова частина сильно зруйнована, а корені знаходяться в задовільному стані. Виробляються вони з металу, пластику, кераміки, цирконію, дорогоцінних металів. Матеріал вибирають з урахуванням необхідної міцності та бажаного візуального ефекту.",
+        "single.prosthetic.item5": "Мостоподібні конструкції — це варіант, якщо немає одного або відразу кількох одиниць, що стоять поруч.",
+
+        // SINGLE: SURGERY
+        "single.surgery.title": "Хірургія",
+        "single.surgery.intro": "Стоматолог-хірург — це лікар-спеціаліст, який займається оперативним лікуванням захворювань і патологій ротової порожнини, щелеп та м'яких тканин обличчя.",
+        "single.surgery.aboutTitle": "Про послугу",
+        "single.surgery.aboutText": "Хірургія ротової порожнини – це будь-яка операція, яка виконується в роті: видалення зубів, імплантація і пересадка тканин. Це широкий термін, що описує будь-яку операцію, виконану в роті.",
+        "single.surgery.item1": "Видалення зубів — включно зі складними видаленнями зубів мудрості.",
+        "single.surgery.item2": "Хірургічне видалення кіст, пухлин та вогнищ запалення.",
+        "single.surgery.item3": "Встановлення зубних імплантатів — включно з підготовкою кісткового ложа.",
+        "single.surgery.item4": "Резекція верхівок коренів — у разі неуспішного ендодонтичного лікування.",
+        "single.surgery.item5": "Передпротезна хірургія — корекція м'яких і твердих тканин перед встановленням протезів.",
+        "single.surgery.item6": "Пародонтологічні втручання — хірургічне лікування пародонтиту.",
+
+        // SINGLE: PREVENTION
+        "single.prevention.title": "Профілактика",
+        "single.prevention.intro": "Стоматологічна профілактика — це комплекс заходів, спрямованих на попередження захворювань зубів та ясен, збереження емалі та уникнення дорогого лікування.",
+        "single.prevention.aboutTitle": "Про послугу",
+        "single.prevention.aboutText": "Своєчасне попередження хвороб зубів та ясен – найважливіший етап комплексного догляду за порожниною рота. Регулярна та правильна профілактика стоматологічних проблем не лише збереже здоров'я, а й заощадить бюджет. Давайте розглянемо, як правильно доглядати за зубами, щоб уникнути різноманітних захворювань та тривалого лікування.",
+        "single.prevention.item1": "Первинна – спрямована на запобігання захворюванням. Це найпрогресивніша форма, яка включає комплекс заходів щодо захисту організму і підвищення його стійкості. Таким чином, пацієнт мінімізує ризик виникнення проблем зі здоров'ям.",
+        "single.prevention.item2": "Вторинна - попереджає ускладнення після лікування та допомагає діагностувати хвороби на ранній стадії.",
+        "single.prevention.item3": "Третинна - реабілітація та відновлення роботи пошкодженого органу для збереження функцій лицьово-щелепного апарату.",
+        "single.prevention.item4": "Гігієну ротової порожнини спеціальними засобами та апаратами, полірування зубів та видалення зубних відкладень - рекомендується пацієнтам не рідше, ніж двічі на рік.",
+        "single.prevention.item5": "Профілактику карієсу фтором - вона робить емаль міцнішою і перешкоджає активному розмноженню хвороботворних бактерій.",
+        "single.prevention.item6": "Герметизацію фісур - дієвий метод профілактики карієсу, особливо для дітей, у яких тільки починають формуватися постійні жувальні зуби.",
     },
     en: {
         // NAV
@@ -470,5 +562,51 @@ export const translations = {
         "team.member2.name": "Clark Howell",
         "team.member3.name": "Kate Fuller",
         "team.member4.name": "Arthur Wade",
+
+        // SINGLE: THERAPEUTIC DENTISTRY
+        "single.therapeutic.title": "Therapeutic Dentistry",
+        "single.therapeutic.intro": "Therapeutic dentistry is the basic branch of dentistry that deals with the diagnosis, prevention and treatment of diseases of the teeth and oral tissues without the use of surgical procedures (such as extraction or implantation).",
+        "single.therapeutic.aboutTitle": "About the service",
+        "single.therapeutic.aboutText": "The goal of therapeutic dentistry is to preserve teeth and avoid their extraction. It focuses on prevention and gentle problem-solving. Moreover, the solution must be fully functional so that the tooth can be used for chewing, as well as aesthetic. The restoration looks completely natural.",
+        "single.therapeutic.item1": "Cariology — treatment of caries of various degrees and restoration of tooth shape using filling materials.",
+        "single.therapeutic.item2": "Endodontics — diagnosis and treatment of diseases of the pulp (nerve) and root canals (cleaning, disinfection and canal filling).",
+        "single.therapeutic.item3": "Non-carious lesions — treatment of enamel erosion, wedge-shaped defects, hyperesthesia (increased sensitivity) and pathological wear.",
+        "single.therapeutic.item4": "Periodontology — prevention and therapy of diseases of the gums and tissues surrounding the tooth (gingivitis, periodontitis).",
+        "single.therapeutic.item5": "Special dentistry / oral mucosa — treatment of stomatitis, diseases of the oral mucosa and salivary glands.",
+
+        // SINGLE: PROSTHETIC DENTISTRY
+        "single.prosthetic.title": "Prosthetic Dentistry",
+        "single.prosthetic.intro": "Prosthetic dentistry is a branch of dentistry that deals with the diagnosis, prevention and restoration of destroyed, damaged or lost teeth using prosthetics.",
+        "single.prosthetic.aboutTitle": "About the service",
+        "single.prosthetic.aboutText": "Prosthetic dentistry deals with the restoration of destroyed teeth, prevention of further destruction and restoration of minor damage. It solves the task of reconstructing lost teeth using the prosthetic method. Which of the proposed prosthetic methods is suitable for a particular patient is decided by the doctor based on factors such as the degree of tooth destruction, its location, and the patient's wishes and capabilities.",
+        "single.prosthetic.item1": "Inlays — an option that replaces fillings. They fill the existing carious cavity and fit tightly to the walls and sides. They make the tooth beautiful and very strong, and do not change the original color over the years.",
+        "single.prosthetic.item2": "Veneers — an option that is glued to the front surface of the crown. They require prior minor grinding. They only handle minor changes — chips, cracks, ugly fillings, changes in enamel shade.",
+        "single.prosthetic.item3": "Prosthetics on dental implants — an option indicated for complete and partial loss of canines, molars, incisors.",
+        "single.prosthetic.item4": "Crowns — an option when the crown part is heavily destroyed and the roots are in satisfactory condition. They are made of metal, plastic, ceramic, zirconium, precious metals. The material is chosen taking into account the required strength and the desired visual effect.",
+        "single.prosthetic.item5": "Bridge structures — an option when one or several adjacent units are missing.",
+
+        // SINGLE: SURGERY
+        "single.surgery.title": "Surgery",
+        "single.surgery.intro": "A dental surgeon is a specialist doctor who deals with the surgical treatment of diseases and pathologies of the oral cavity, jaws and soft tissues of the face.",
+        "single.surgery.aboutTitle": "About the service",
+        "single.surgery.aboutText": "Oral surgery is any operation performed in the mouth: tooth extraction, implantation and tissue transplantation. It is a broad term that describes any operation performed in the mouth.",
+        "single.surgery.item1": "Tooth extraction — including complex wisdom tooth extractions.",
+        "single.surgery.item2": "Surgical removal of cysts, tumors and foci of inflammation.",
+        "single.surgery.item3": "Placement of dental implants — including preparation of the bone bed.",
+        "single.surgery.item4": "Root apex resection — in case of unsuccessful endodontic treatment.",
+        "single.surgery.item5": "Pre-prosthetic surgery — correction of soft and hard tissues before placing prostheses.",
+        "single.surgery.item6": "Periodontal interventions — surgical treatment of periodontitis.",
+
+        // SINGLE: PREVENTION
+        "single.prevention.title": "Prevention",
+        "single.prevention.intro": "Dental prevention is a set of measures aimed at preventing diseases of the teeth and gums, preserving enamel and avoiding expensive treatment.",
+        "single.prevention.aboutTitle": "About the service",
+        "single.prevention.aboutText": "Timely prevention of diseases of the teeth and gums is the most important stage of comprehensive oral care. Regular and proper prevention of dental problems will not only preserve health but also save your budget. Let's look at how to properly care for your teeth to avoid various diseases and long-term treatment.",
+        "single.prevention.item1": "Primary — aimed at preventing diseases. This is the most progressive form, which includes a set of measures to protect the body and increase its resistance. Thus, the patient minimizes the risk of health problems.",
+        "single.prevention.item2": "Secondary — prevents complications after treatment and helps diagnose diseases at an early stage.",
+        "single.prevention.item3": "Tertiary — rehabilitation and restoration of the function of the damaged organ to preserve the functions of the maxillofacial apparatus.",
+        "single.prevention.item4": "Oral hygiene with special products and devices, teeth polishing and removal of dental deposits — recommended for patients at least twice a year.",
+        "single.prevention.item5": "Caries prevention with fluoride — it makes enamel stronger and prevents the active multiplication of pathogenic bacteria.",
+        "single.prevention.item6": "Fissure sealing — an effective method of caries prevention, especially for children whose permanent chewing teeth are just beginning to form.",
     }
 };
