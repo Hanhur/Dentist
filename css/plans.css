@@ -1,3 +1,7 @@
+.section-plans
+{
+    padding: 100px 109px;
+}
 .plans-box
 {
     display: flex;
@@ -106,7 +110,7 @@
 .plans-premium_text,
 .plans-family_text
 {
-    width: 118px;
+    width: 125px;
     color: var(--colors-Neutral-500);
 }
 .plans-standard_price,
