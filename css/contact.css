@@ -180,3 +180,8 @@
     text-decoration: underline;
     color: var(--colors-Primary-Accent);
 }
+.contact-map
+{
+    width: 100%;
+    height: 550px;
+}

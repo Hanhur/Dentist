@@ -201,6 +201,19 @@ export const translations = {
         "single.prevention.item4": "Hygiena dutiny ústní speciálními prostředky a přístroji, leštění zubů a odstranění zubního plaku — doporučuje se pacientům nejméně dvakrát ročně.",
         "single.prevention.item5": "Prevence kazů fluoridem — činí sklovinu pevnější a brání aktivnímu množení patogenních bakterií.",
         "single.prevention.item6": "Pečetění fisur — účinná metoda prevence kazů, zejména u dětí, u kterých se teprve začínají formovat stálé žvýkací zuby.",
+
+        // CONTACT PAGE
+        "contactPage.bookTitle": "Rezervujte si termín",
+        "contactPage.bookText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et luctus nisl volutpat arcu nibh blandit.",
+        "contactPage.moreInfo": "Více informací",
+        "contactPage.address": "Adresa",
+        "contactPage.email": "E-mail",
+        "contactPage.phone": "Telefon",
+        "contactPage.socialTitle": "Kontaktujte nás prostřednictvím našich sociálních sítí",
+        "contactPage.contactBtn": "Kontaktujte nás",
+        "contactPage.socialDesc": "Lorem ipsum dolor sit ametol, adi consectetur adipiscing.",
+        "contactPage.followUs": "Sledujte nás",
+        "contactPage.viewLocation": "Zobrazit polohu",
     },
 
     uk: {
@@ -405,6 +418,19 @@ export const translations = {
         "single.prevention.item4": "Гігієну ротової порожнини спеціальними засобами та апаратами, полірування зубів та видалення зубних відкладень - рекомендується пацієнтам не рідше, ніж двічі на рік.",
         "single.prevention.item5": "Профілактику карієсу фтором - вона робить емаль міцнішою і перешкоджає активному розмноженню хвороботворних бактерій.",
         "single.prevention.item6": "Герметизацію фісур - дієвий метод профілактики карієсу, особливо для дітей, у яких тільки починають формуватися постійні жувальні зуби.",
+
+        // CONTACT PAGE
+        "contactPage.bookTitle": "Запишіться на прийом",
+        "contactPage.bookText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et luctus nisl volutpat arcu nibh blandit.",
+        "contactPage.moreInfo": "Більше інформації",
+        "contactPage.address": "Адреса",
+        "contactPage.email": "Електронна пошта",
+        "contactPage.phone": "Телефон",
+        "contactPage.socialTitle": "Зв'яжіться з нами через наші соціальні мережі",
+        "contactPage.contactBtn": "Зв'язатися з нами",
+        "contactPage.socialDesc": "Lorem ipsum dolor sit ametol, adi consectetur adipiscing.",
+        "contactPage.followUs": "Стежте за нами",
+        "contactPage.viewLocation": "Переглянути розташування",
     },
     en: {
         // NAV
@@ -608,5 +634,18 @@ export const translations = {
         "single.prevention.item4": "Oral hygiene with special products and devices, teeth polishing and removal of dental deposits — recommended for patients at least twice a year.",
         "single.prevention.item5": "Caries prevention with fluoride — it makes enamel stronger and prevents the active multiplication of pathogenic bacteria.",
         "single.prevention.item6": "Fissure sealing — an effective method of caries prevention, especially for children whose permanent chewing teeth are just beginning to form.",
+
+        // CONTACT PAGE
+        "contactPage.bookTitle": "Book your appointment",
+        "contactPage.bookText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et luctus nisl volutpat arcu nibh blandit.",
+        "contactPage.moreInfo": "More Information",
+        "contactPage.address": "Address",
+        "contactPage.email": "Email",
+        "contactPage.phone": "Phone",
+        "contactPage.socialTitle": "Contact us through our Social Media",
+        "contactPage.contactBtn": "Contact us",
+        "contactPage.socialDesc": "Lorem ipsum dolor sit ametol, adi consectetur adipiscing.",
+        "contactPage.followUs": "Follow Us",
+        "contactPage.viewLocation": "View Location",
     }
 };
