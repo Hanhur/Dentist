@@ -10,7 +10,7 @@
 {
     width: 125px;
     border-radius: 30px;
-    padding: 18px 19px;
+    padding: 10px;
     margin-bottom: 30px;
     background-color: var(--colors-Secondary-100);
 }
