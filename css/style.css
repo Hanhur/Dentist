@@ -233,8 +233,8 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
-    padding: 31px 52px 47px 52px;
+    gap: 140px;
+    padding: 30px;
     border-radius: 28px;
     border: 1px solid var(--colors-Neutral-100);
     background-color: var(--colors-Neutral-100);
@@ -286,6 +286,10 @@ body
     width: 180px;
     margin-bottom: 9px;
 }
+.box-open-hours_item
+{
+    width: 233px;
+}
 .box-contact_link
 {
     font-size: 16px;
@@ -310,6 +314,10 @@ body
 {
     font-size: 16px;
     color: var(--colors-Neutral-600);
+}
+.box-contact-services_item
+{
+    width: 210px;
 }
 .box-contact-services_link
 {
