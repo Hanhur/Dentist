@@ -330,21 +330,6 @@ export const translations = {
         "footer.address": "Plynární 1032/29, 170 00 Praha 7",
         "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>",
 
-        // PLANS
-        "plans.label": "Тарифи",
-        "plans.title": "Доступні плани прийомів <span>для кожного</span>",
-        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
-        "plans.priceDesc": "Lorem ipsum dolor sit amet, proin eget consectetur adipiscing elit.",
-        "plans.standard.title": "Стандарт",
-        "plans.standard.appointments": "1 прийом",
-        "plans.premium.title": "Преміум",
-        "plans.premium.appointments": "2 прийоми",
-        "plans.family.title": "Сімейний",
-        "plans.family.appointments": "4 прийоми",
-        "plans.feature.followUp": "Подальші дзвінки та допомога",
-        "plans.feature.expert": "Послуги від досвідчених стоматологів",
-        "plans.feature.clinics": "Доступні 4 клініки",
-
         // ABOUT HERO
         "aboutHero.title": "Ми — Dentist, стоматологічна клініка, якій можна довіряти",
         "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
