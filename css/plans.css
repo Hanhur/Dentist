@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: 58px;
     line-height: 1.0;
-    width: 806px;
+    width: 770px;
     text-align: center;
     margin-bottom: 20px;
     color: var(--colors-Neutral-800);
@@ -63,6 +63,7 @@
     font-weight: 700;
     font-size: 38px;
     color: #591177;
+    text-align: center;
     text-transform: uppercase;
 }
 .plans-standard_text
