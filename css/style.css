@@ -921,10 +921,11 @@ body
 /* ========================================= Footer ============================ */
 .wrapper-footer
 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 90px 60px;
-    gap: 43px;
+    gap: 110px; 
     position: relative;
 }
 .wrapper-footer::before
