@@ -26,7 +26,7 @@ export const translations = {
         "servicesBox.title": "Služby",
         "servicesBox.item1": "Záchovná stomatologie",
         "servicesBox.item2": "Protetická stomatologie",
-        "servicesBox.item3": "Chirurgie",
+        "servicesBox.item3": "Zubní ordinace",
         "servicesBox.item4": "Dentální hygiena",
 
         // OUR SERVICES
@@ -38,7 +38,7 @@ export const translations = {
 
         "ourServices.therapeutic": "Záchovná stomatologie",
         "ourServices.prosthetic": "Protetická stomatologie",
-        "ourServices.surgery": "Chirurgie",
+        "ourServices.surgery": "Zubní ordinace",
         "ourServices.prevention": "Dentální hygiena",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Zjistit více",
@@ -189,16 +189,8 @@ export const translations = {
         "single.prosthetic.item5": "Můstkové konstrukce — varianta, pokud chybí jedna nebo několik sousedících jednotek.",
 
         // SINGLE: SURGERY
-        "single.surgery.title": "Chirurgie",
-        "single.surgery.intro": "Zubní chirurg je specializovaný lékař, který se zabývá operační léčbou onemocnění a patologií dutiny ústní, čelistí a měkkých tkání obličeje.",
-        "single.surgery.aboutTitle": "O službě",
-        "single.surgery.aboutText": "Chirurgie dutiny ústní je jakýkoli chirurgický zákrok prováděný v ústech: extrakce zubů, implantace a transplantace tkání. Je to široký pojem, který popisuje jakýkoli zákrok provedený v ústech.",
-        "single.surgery.item1": "Extrakce zubů — včetně složitých extrakcí zubů moudrosti.",
-        "single.surgery.item2": "Chirurgické odstranění cyst, nádorů a ložisek zánětu.",
-        "single.surgery.item3": "Zavedení zubních implantátů — včetně přípravy kostního lůžka.",
-        "single.surgery.item4": "Resekce hrotů kořenů — v případě neúspěšné endodontické léčby.",
-        "single.surgery.item5": "Předprotetická chirurgie — korekce měkkých a tvrdých tkání před zavedením protéz.",
-        "single.surgery.item6": "Parodontologické zákroky — chirurgická léčba parodontitidy.",
+        "single.surgery.title": "Zubní ordinace",
+        "single.surgery.intro": "Stomatochirurgie je specializovaný lékař, který se zabývá operační léčbou onemocnění a patologií dutiny ústní, čelistí a měkkých tkání obličeje.",
 
         // SINGLE: PREVENTION
         "single.prevention.title": "Dentální hygiena",
@@ -253,7 +245,7 @@ export const translations = {
         "servicesBox.title": "Послуги",
         "servicesBox.item1": "Терапевтична стоматологія",
         "servicesBox.item2": "Ортопедична стоматологія",
-        "servicesBox.item3": "Хірургія",
+        "servicesBox.item3": "Хірургічна стоматологія",
         "servicesBox.item4": "Профілактика",
 
         // OUR SERVICES
@@ -265,7 +257,7 @@ export const translations = {
 
         "ourServices.therapeutic": "Терапевтична стоматологія",
         "ourServices.prosthetic": "Ортопедична стоматологія",
-        "ourServices.surgery": "Хірургія",
+        "ourServices.surgery": "Хірургічна стоматологія",
         "ourServices.prevention": "Профілактика",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Дізнатися більше",
@@ -391,16 +383,8 @@ export const translations = {
         "single.prosthetic.item5": "Мостоподібні конструкції — це варіант, якщо немає одного або відразу кількох одиниць, що стоять поруч.",
 
         // SINGLE: SURGERY
-        "single.surgery.title": "Хірургія",
+        "single.surgery.title": "Хірургічна стоматологія",
         "single.surgery.intro": "Стоматолог-хірург — це лікар-спеціаліст, який займається оперативним лікуванням захворювань і патологій ротової порожнини, щелеп та м'яких тканин обличчя.",
-        "single.surgery.aboutTitle": "Про послугу",
-        "single.surgery.aboutText": "Хірургія ротової порожнини – це будь-яка операція, яка виконується в роті: видалення зубів, імплантація і пересадка тканин. Це широкий термін, що описує будь-яку операцію, виконану в роті.",
-        "single.surgery.item1": "Видалення зубів — включно зі складними видаленнями зубів мудрості.",
-        "single.surgery.item2": "Хірургічне видалення кіст, пухлин та вогнищ запалення.",
-        "single.surgery.item3": "Встановлення зубних імплантатів — включно з підготовкою кісткового ложа.",
-        "single.surgery.item4": "Резекція верхівок коренів — у разі неуспішного ендодонтичного лікування.",
-        "single.surgery.item5": "Передпротезна хірургія — корекція м'яких і твердих тканин перед встановленням протезів.",
-        "single.surgery.item6": "Пародонтологічні втручання — хірургічне лікування пародонтиту.",
 
         // SINGLE: PREVENTION
         "single.prevention.title": "Профілактика",
@@ -479,7 +463,7 @@ export const translations = {
         "servicesBox.title": "Services",
         "servicesBox.item1": "Therapeutic Dentistry",
         "servicesBox.item2": "Prosthetic Dentistry",
-        "servicesBox.item3": "Surgery",
+        "servicesBox.item3": "Dental Surgery",
         "servicesBox.item4": "Prevention",
 
         // OUR SERVICES
@@ -491,7 +475,7 @@ export const translations = {
 
         "ourServices.therapeutic": "Therapeutic Dentistry",
         "ourServices.prosthetic": "Prosthetic Dentistry",
-        "ourServices.surgery": "Surgery",
+        "ourServices.surgery": "Dental Surgery",
         "ourServices.prevention": "Prevention",
         "ourServices.desc": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
         "ourServices.learnMore": "Learn More",
@@ -642,16 +626,8 @@ export const translations = {
         "single.prosthetic.item5": "Bridge structures — an option when one or several adjacent units are missing.",
 
         // SINGLE: SURGERY
-        "single.surgery.title": "Surgery",
+        "single.surgery.title": "Dental Surgery",
         "single.surgery.intro": "A dental surgeon is a specialist doctor who deals with the surgical treatment of diseases and pathologies of the oral cavity, jaws and soft tissues of the face.",
-        "single.surgery.aboutTitle": "About the service",
-        "single.surgery.aboutText": "Oral surgery is any operation performed in the mouth: tooth extraction, implantation and tissue transplantation. It is a broad term that describes any operation performed in the mouth.",
-        "single.surgery.item1": "Tooth extraction — including complex wisdom tooth extractions.",
-        "single.surgery.item2": "Surgical removal of cysts, tumors and foci of inflammation.",
-        "single.surgery.item3": "Placement of dental implants — including preparation of the bone bed.",
-        "single.surgery.item4": "Root apex resection — in case of unsuccessful endodontic treatment.",
-        "single.surgery.item5": "Pre-prosthetic surgery — correction of soft and hard tissues before placing prostheses.",
-        "single.surgery.item6": "Periodontal interventions — surgical treatment of periodontitis.",
 
         // SINGLE: PREVENTION
         "single.prevention.title": "Prevention",

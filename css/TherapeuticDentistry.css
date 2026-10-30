@@ -18,9 +18,9 @@
 .single_img
 {
     width: 155px;
-    border-radius: 30px;
-    padding: 10px;
-    background-color: var(--colors-Secondary-100);
+    border-radius: 50px;
+    padding: 38px 45px;
+    background-color: var(--colors-Secondary-600);
 }
 .single-title
 {

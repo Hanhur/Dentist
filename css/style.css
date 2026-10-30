@@ -53,6 +53,7 @@ body
 {
     --colors-Primary-Accent: #5D4FFF;
     --colors-Secondary-100: #F2F1FE;
+    --colors-Secondary-600: #C2B8FF;
     --colors-Neutral-100: #FFFFFF;
     --colors-Neutral-200: #FAF9FC;
     --colors-Neutral-300: #EFEEF6;
@@ -381,14 +382,29 @@ body
     border: 1px solid var(--colors-Neutral-400);
     box-shadow: var(--box-shadow);
 }
-.services-treatment_img,
-.services-prosthetic_img,
-.services-surgery_img,
+.services-treatment_img
+{
+    padding: 49px 147px 72px 150px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-600);
+}
+.services-prosthetic_img
+{
+    padding: 58px 159px 57px 158px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-600);
+}
+.services-surgery_img
+{
+    padding: 66px 133px 66px 131px;
+    border-radius: 32px 32px 0 0;
+    background-color: var(--colors-Secondary-600);
+}
 .services-prevention_img
 {
     padding: 45px 127px 56px 144px;
     border-radius: 32px 32px 0 0;
-    background-color: var(--colors-Secondary-100);
+    background-color: var(--colors-Secondary-600);
 }
 .services-treatment,
 .services-prosthetic,
