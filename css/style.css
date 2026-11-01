@@ -384,7 +384,7 @@ body
 }
 .services-treatment_img
 {
-    padding: 49px 147px 72px 150px;
+    padding: 35px 147px 55px 150px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-600);
 }
@@ -402,7 +402,7 @@ body
 }
 .services-prevention_img
 {
-    padding: 45px 127px 56px 144px;
+    padding: 65px 127px 66px 144px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-600);
 }

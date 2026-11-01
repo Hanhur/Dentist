@@ -19,7 +19,7 @@
 {
     width: 155px;
     border-radius: 30px;
-    padding: 20px 30px;
+    padding: 25px;
     background-color: var(--colors-Secondary-600);
 }
 .single-title
