@@ -390,13 +390,13 @@ body
 }
 .services-prosthetic_img
 {
-    padding: 58px 159px 57px 158px;
+    padding: 35px 159px 35px 158px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-600);
 }
 .services-surgery_img
 {
-    padding: 66px 133px 66px 131px;
+    padding: 33px 133px 33px 131px;
     border-radius: 32px 32px 0 0;
     background-color: var(--colors-Secondary-600);
 }
