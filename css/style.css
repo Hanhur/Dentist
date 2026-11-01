@@ -319,13 +319,19 @@ body
 }
 .box-contact-services_item
 {
-    width: 210px;
+    width: 220px;
 }
 .box-contact-services_link
 {
     font-size: 16px;
     color: var(--colors-Neutral-600);
     margin-bottom: 6px;
+}
+.box-contact-services_link:hover,
+.box-contact_link:hover
+{
+    font-weight: 700;
+    color: var(--colors-Primary-Accent);
 }
 /* ================================ Our Services ========================== */
 .our-team_block-link
