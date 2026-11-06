@@ -89,7 +89,7 @@
     position: absolute;
     top: 45px;
     left: 0;
-    width: 200px;
+    width: 195px;
     height: 1px;
     border: 1px solid var(--colors-Neutral-600);
 }
@@ -157,4 +157,18 @@
 {
     display: flex;
     justify-content: space-between;
+}
+.health_insurance
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+    color: #4B036F;
+}
+.health__insurance
+{
+    font-weight: 700;
+    font-size: 21px;
 }

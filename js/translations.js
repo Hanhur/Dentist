@@ -119,28 +119,28 @@ export const translations = {
         "plans.priceList": "CENÍK",
         "plans.service.heading": "Stomatologie",
         "plans.service.subheading": "Vaše zdravé úsměvy",
-        "plans.service.rootCanal": "Léčba kořenových kanálků",
+        "plans.service.rootCanal": "Konzultace bez pojištění",
         "plans.service.from": "od",
-        "plans.service.therapy": "Terapie",
-        "plans.service.consultNoIns": "Konzultace bez pojištění",
+        "plans.service.therapy": "Záchovna stomatologie",
+        "plans.service.consultNoIns": "Léčba kořenových kanálků",
         "plans.service.hygiene": "Hygiena",
-        "plans.service.cariesGIC": "Léčení kazu hybridním GIC",
-        "plans.service.cariesComposite": "Léčení kazu s fotokompozitní rekonstrukcí",
-        "plans.service.fiberPost": "Sklolaminátový čep",
+        "plans.service.cariesGIC": "Ošetření kazu hybridním GIC",
+        "plans.service.cariesComposite": "Ošetření kazu s fotokompozitní rekonstrukcí",
+        "plans.service.fiberPost": "Sklovlakný čep",
         "plans.service.plusRestoration": "+ rekonstrukce",
         "plans.service.prosthetics": "Protetika",
-        "plans.service.impressions": "Otisky na částečnou a plnou snímatelnou protézu",
+        "plans.service.impressions": "Otisky na částečnou nebo plnou snímatelnou náhradu",
         "plans.service.flexibleDenture": "Snímatelná flexibilní protéza (deflex)",
         "plans.service.metalCeramicCrown": "Kovokeramická korunka",
         "plans.service.allCeramicCrown": "Celokeramická korunka",
         "plans.service.temporaryCrown": "Dočasná korunka",
+        "plans.service.temporaryRoot": "Kořenová dostavba",
         "plans.service.implantation": "Implantace",
         "plans.service.implant": "Implantace",
         "plans.service.crownOnImplant": "Korunka na implantát",
 
         // ABOUT HERO
-        "aboutHero.title": "Jsme Dentist, stomatologická klinika, které můžete věřit",
-        "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
+        "aboutHero.title": "Jsme stomatologie které můžete svěřit",
         "aboutHero.scroll": "Posuňte dolů",
 
         // ABOUT STORY
@@ -333,7 +333,7 @@ export const translations = {
         "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>",
 
         // ABOUT HERO
-        "aboutHero.title": "Ми — Dentist, стоматологічна клініка, якій можна довіряти",
+        "aboutHero.title": "Ми — Dental Kit, стоматологічна клініка, якій можна довіряти",
         "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
         "aboutHero.scroll": "Прокрутіть вниз",
 
@@ -414,7 +414,7 @@ export const translations = {
         // PLANS PRICE LIST
         "plans.title": "Доступні плани прийомів <span>для кожного</span>",
         "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
-        "plans.priceList": "ПРАЙС",
+        "plans.priceList": "ЦІННИК",
         "plans.service.heading": "Стоматологія",
         "plans.service.subheading": "Здорові ваші усмішки",
         "plans.service.rootCanal": "Лікування кореневих каналів",
@@ -423,7 +423,7 @@ export const translations = {
         "plans.service.consultNoIns": "Консультація без страхування",
         "plans.service.hygiene": "Гігієна",
         "plans.service.cariesGIC": "Лікування карієсу гібридним GIC",
-        "plans.service.cariesComposite": "Лікування карієсу з реставрацією з фотокомпозиту",
+        "plans.service.cariesComposite": "Лікування карієсу реставрацією з фотокомпозиту",
         "plans.service.fiberPost": "Скловолоконний штифт",
         "plans.service.plusRestoration": "+ реставрація",
         "plans.service.prosthetics": "Протезування",
@@ -432,6 +432,7 @@ export const translations = {
         "plans.service.metalCeramicCrown": "Металокерамічна коронка",
         "plans.service.allCeramicCrown": "Цільнокерамічна коронка",
         "plans.service.temporaryCrown": "Тимчасова коронка",
+        "plans.service.temporaryRoot": "Коренево коксова вкладка",
         "plans.service.implantation": "Імплантація",
         "plans.service.implant": "Імплантація",
         "plans.service.crownOnImplant": "Коронка на імплантат"
