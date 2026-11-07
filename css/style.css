@@ -368,6 +368,7 @@ body
     padding: 24px;
     width: 251px;
     height: 68px;
+    text-align: center;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
