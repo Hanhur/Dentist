@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +7,71 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sign-up.css">
-    <title>Форма регистрации</title>
+    <title data-i18n="signup.pageTitle">Registrace</title>
 </head>
 <body>
     <div class="register-container">
-        <h2>Регистрация</h2>
+        <h2 data-i18n="signup.title">Регистрация</h2>
         <form id="registerForm" novalidate>
             <div class="form-group">
-                <label for="username">Имя пользователя</label>
-                <input type="text" id="username" name="username" placeholder="Введите имя">
-                <div class="error-message" id="usernameError">Минимум 3 символа</div>
+                <label for="username" data-i18n="signup.username">Имя пользователя</label>
+                <input type="text" id="username" name="username"
+                       data-i18n-placeholder="signup.usernamePh"
+                       placeholder="Введите имя">
+                <div class="error-message" id="usernameError"
+                     data-i18n="signup.usernameError">Минимум 3 символа</div>
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@mail.com">
-                <div class="error-message" id="emailError">Введите корректный email</div>
+                <label for="email" data-i18n="signup.email">Email</label>
+                <input type="email" id="email" name="email"
+                       data-i18n-placeholder="signup.emailPh"
+                       placeholder="example@mail.com">
+                <div class="error-message" id="emailError"
+                     data-i18n="signup.emailError">Введите корректный email</div>
             </div>
             <div class="form-group">
-                <label for="password">Пароль</label>
-                <input type="password" id="password" name="password" placeholder="Минимум 6 символов">
+                <label for="password" data-i18n="signup.password">Пароль</label>
+                <input type="password" id="password" name="password"
+                       data-i18n-placeholder="signup.passwordPh"
+                       placeholder="Минимум 6 символов">
                 <div class="password-strength">
                     <div class="password-strength-bar" id="strengthBar"></div>
                 </div>
-                <div class="error-message" id="passwordError">Минимум 6 символов</div>
+                <div class="error-message" id="passwordError"
+                     data-i18n="signup.passwordError">Минимум 6 символов</div>
             </div>
             <div class="form-group">
-                <label for="confirmPassword">Подтвердите пароль</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Повторите пароль">
-                <div class="error-message" id="confirmError">Пароли не совпадают</div>
+                <label for="confirmPassword" data-i18n="signup.confirmPassword">Подтвердите пароль</label>
+                <input type="password" id="confirmPassword" name="confirmPassword"
+                       data-i18n-placeholder="signup.confirmPasswordPh"
+                       placeholder="Повторите пароль">
+                <div class="error-message" id="confirmError"
+                     data-i18n="signup.confirmError">Пароли не совпадают</div>
             </div>
             <div class="checkbox-group">
                 <input type="checkbox" id="terms">
                 <label for="terms" style="margin:0; font-weight: normal;">
-                    Я согласен с <a href="#">условиями использования</a> и
-                    <a href="#">политикой конфиденциальности</a>
+                    <span data-i18n="signup.termsPrefix">Я согласен с</span>
+                    <a href="#" data-i18n="signup.termsLink">условиями использования</a>
+                    <span data-i18n="signup.termsAnd">и</span>
+                    <a href="#" data-i18n="signup.privacyLink">политикой конфиденциальности</a>
                 </label>
             </div>
-            <div class="error-message" id="termsError" style="margin-top:-15px; margin-bottom:10px;">Необходимо согласие</div>
-            <button type="submit">Зарегистрироваться</button>
-            <div class="success-message" id="successMessage">✅ Регистрация успешно завершена!</div>
+            <div class="error-message" id="termsError"
+                 style="margin-top:-15px; margin-bottom:10px;"
+                 data-i18n="signup.termsError">Необходимо согласие</div>
+            <button type="submit" data-i18n="signup.submit">Зарегистрироваться</button>
+            <div class="success-message" id="successMessage"
+                 data-i18n="signup.success">✅ Регистрация успешно завершена!</div>
         </form>
-        <div class="login-link">Уже есть аккаунт? <a href="#">Войти</a></div>
+        <div class="login-link">
+            <span data-i18n="signup.haveAccount">Уже есть аккаунт?</span>
+            <a href="#" data-i18n="signup.login">Войти</a>
+        </div>
     </div>
+
+    <!-- i18n ДО логики формы -->
+    <script type="module" src="js/i18next.js"></script>
     <script type="module" src="js/sign-up.js"></script>
 </body>
 </html>

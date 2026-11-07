@@ -138,6 +138,9 @@ export const translations = {
         "plans.service.implantation": "Implantace",
         "plans.service.implant": "Implantace",
         "plans.service.crownOnImplant": "Korunka na implantát",
+        "plans.service.rootCanal": "Ošetření kořenových kanálků",
+        "plans.service.consultNoIns": "Konzultace bez pojištění",
+        "plans.insurance.text": "Spolupracujeme se zdravotními pojišťovnami - ",
 
         // ABOUT HERO
         "aboutHero.title": "Jsme stomatologie které můžete svěřit",
@@ -216,6 +219,31 @@ export const translations = {
         "contactPage.socialDesc": "Lorem ipsum dolor sit ametol, adi consectetur adipiscing.",
         "contactPage.followUs": "Sledujte nás",
         "contactPage.viewLocation": "Zobrazit polohu",
+
+        // SIGN UP
+        "signup.pageTitle": "Registrace",
+        "signup.title": "Registrace",
+        "signup.username": "Uživatelské jméno",
+        "signup.usernamePh": "Zadejte jméno",
+        "signup.usernameError": "Minimálně 3 znaky",
+        "signup.email": "Email",
+        "signup.emailPh": "example@mail.com",
+        "signup.emailError": "Zadejte platný email",
+        "signup.password": "Heslo",
+        "signup.passwordPh": "Minimálně 6 znaků",
+        "signup.passwordError": "Minimálně 6 znaků",
+        "signup.confirmPassword": "Potvrďte heslo",
+        "signup.confirmPasswordPh": "Zopakujte heslo",
+        "signup.confirmError": "Hesla se neshodují",
+        "signup.termsPrefix": "Souhlasím s",
+        "signup.termsLink": "podmínkami použití",
+        "signup.termsAnd": "a",
+        "signup.privacyLink": "zásadami ochrany osobních údajů",
+        "signup.termsError": "Souhlas je nutný",
+        "signup.submit": "Zaregistrovat se",
+        "signup.success": "✅ Registrace byla úspěšně dokončena!",
+        "signup.haveAccount": "Už máte účet?",
+        "signup.login": "Přihlásit se",
     },
 
     uk: {
@@ -333,7 +361,7 @@ export const translations = {
         "footer.copyright": "Copyright &copy; Dentist Дизайн <span>BRIX Templates</span> - Працює на <span>Webflow</span>",
 
         // ABOUT HERO
-        "aboutHero.title": "Ми — Dental Kit, стоматологічна клініка, якій можна довіряти",
+        "aboutHero.title": "Ми, стоматологічна клініка, якій можна довіряти",
         "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
         "aboutHero.scroll": "Прокрутіть вниз",
 
@@ -435,7 +463,33 @@ export const translations = {
         "plans.service.temporaryRoot": "Коренево коксова вкладка",
         "plans.service.implantation": "Імплантація",
         "plans.service.implant": "Імплантація",
-        "plans.service.crownOnImplant": "Коронка на імплантат"
+        "plans.service.crownOnImplant": "Коронка на імплантат",
+        "plans.insurance.text": "Ми співпрацюємо з медичними страховими компаніями - ",
+
+        // SIGN UP
+        "signup.pageTitle": "Реєстрація",
+        "signup.title": "Реєстрація",
+        "signup.username": "Ім'я користувача",
+        "signup.usernamePh": "Введіть ім'я",
+        "signup.usernameError": "Мінімум 3 символи",
+        "signup.email": "Email",
+        "signup.emailPh": "example@mail.com",
+        "signup.emailError": "Введіть коректний email",
+        "signup.password": "Пароль",
+        "signup.passwordPh": "Мінімум 6 символів",
+        "signup.passwordError": "Мінімум 6 символів",
+        "signup.confirmPassword": "Підтвердіть пароль",
+        "signup.confirmPasswordPh": "Повторіть пароль",
+        "signup.confirmError": "Паролі не збігаються",
+        "signup.termsPrefix": "Я погоджуюсь з",
+        "signup.termsLink": "умовами використання",
+        "signup.termsAnd": "та",
+        "signup.privacyLink": "політикою конфіденційності",
+        "signup.termsError": "Необхідна згода",
+        "signup.submit": "Зареєструватися",
+        "signup.success": "✅ Реєстрація успішно завершена!",
+        "signup.haveAccount": "Вже є акаунт?",
+        "signup.login": "Увійти",
     },
     en: {
         // NAV
@@ -575,6 +629,8 @@ export const translations = {
         "plans.service.implantation": "Implantation",
         "plans.service.implant": "Implantation",
         "plans.service.crownOnImplant": "Crown on implant",
+        "plans.service.temporaryRoot": "Root build-up",
+        "plans.insurance.text": "We cooperate with health insurance companies - ",
 
         // ABOUT HERO
         "aboutHero.title": "We are Dentist, a dental clinic you can trust",
@@ -654,5 +710,30 @@ export const translations = {
         "contactPage.socialDesc": "Lorem ipsum dolor sit ametol, adi consectetur adipiscing.",
         "contactPage.followUs": "Follow Us",
         "contactPage.viewLocation": "View Location",
+
+        // SIGN UP
+        "signup.pageTitle": "Sign Up",
+        "signup.title": "Sign Up",
+        "signup.username": "Username",
+        "signup.usernamePh": "Enter your name",
+        "signup.usernameError": "At least 3 characters",
+        "signup.email": "Email",
+        "signup.emailPh": "example@mail.com",
+        "signup.emailError": "Enter a valid email",
+        "signup.password": "Password",
+        "signup.passwordPh": "At least 6 characters",
+        "signup.passwordError": "At least 6 characters",
+        "signup.confirmPassword": "Confirm Password",
+        "signup.confirmPasswordPh": "Repeat password",
+        "signup.confirmError": "Passwords do not match",
+        "signup.termsPrefix": "I agree to the",
+        "signup.termsLink": "Terms of Use",
+        "signup.termsAnd": "and",
+        "signup.privacyLink": "Privacy Policy",
+        "signup.termsError": "Consent is required",
+        "signup.submit": "Sign Up",
+        "signup.success": "✅ Registration completed successfully!",
+        "signup.haveAccount": "Already have an account?",
+        "signup.login": "Log In",
     }
 };

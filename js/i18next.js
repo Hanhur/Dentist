@@ -1,34 +1,45 @@
 import { translations } from "./translations.js";
 
 function applyTranslations(lang) {
+    if (!translations[lang]) lang = 'cs';
     document.documentElement.lang = lang;
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.dataset.i18n;
-        if (translations[lang] && translations[lang][key] !== undefined) {
+        if (translations[lang][key] !== undefined) {
             el.innerHTML = translations[lang][key];
         }
     });
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
         const key = el.dataset.i18nPlaceholder;
-        if (translations[lang] && translations[lang][key] !== undefined) {
+        if (translations[lang][key] !== undefined) {
             el.placeholder = translations[lang][key];
         }
     });
 
-    document.querySelectorAll('select[data-i18n-select]').forEach(select => {
-        const savedValue = select.value;
-        if (savedValue) {
-            requestAnimationFrame(() => { select.value = savedValue; });
+    // <title>
+    document.querySelectorAll('title[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (translations[lang][key] !== undefined) {
+            document.title = translations[lang][key];
         }
     });
+
+    // Синхронизация селектора
+    const langSelect = document.getElementById('langSelect');
+    if (langSelect && langSelect.value !== lang) langSelect.value = lang;
 
     localStorage.setItem('lang', lang);
 }
 
 const savedLang = localStorage.getItem('lang') || 'cs';
-applyTranslations(savedLang);
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => applyTranslations(savedLang));
+} else {
+    applyTranslations(savedLang);
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     const select = document.getElementById('langSelect');

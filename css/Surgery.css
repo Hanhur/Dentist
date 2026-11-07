@@ -165,3 +165,17 @@
     display: flex;
     justify-content: space-between;
 }
+.health_insurance
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+    color: #4B036F;
+}
+.health__insurance
+{
+    font-weight: 700;
+    font-size: 21px;
+}

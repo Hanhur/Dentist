@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./css/plans.css">
     <title>Dental Kit</title>
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -36,7 +38,7 @@
                     <ul class="header-address_list">
                         <li class="header-address_item">
                             <a class="header-address_link" href="tel:+420792558607">
-                                <img src="./images/PhoneIcon.svg" alt="">
+                                <img src="./images/PhoneIcon.svg" alt>
                                 +420 792 558 607
                             </a>
                         </li>
@@ -53,111 +55,97 @@
     </header>
     <!-- Main -->
     <main class="main">
-       <section class="section-plans">
+        <section class="section-plans">
             <div class="container">
-        <!-- <div class="plans-box">
-            <h2 class="plans-title" data-i18n="plans.title">Affordable appointment plans <span>for everyone</span></h2>
-            <p class="plans-text" data-i18n="plans.text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.
-            </p>
-        </div> -->
-        <div class="plans-block">
-            <div class="plans-standard">
-                <!-- <div class="plans-standard_box">
-                    <img class="plans-standard_img" src="./images/standard.svg" alt="Standard">
-                    <div class="plans-standard_appoin">
-                        <h3 class="plans-standard_title" data-i18n="plans.service.heading">Стоматологія</h3>
-                        <p class="plans-standard_text" data-i18n="plans.service.subheading">Здорові ваші усмішки</p>
+                <div class="plans-block">
+                    <div class="plans-standard">
+                        <span class="plans-standard_span" data-i18n="plans.priceList">ПРАЙС</span>
+                        <ul class="plans-standard_list">
+                            <li class="plans-standard_item">
+                                <span class="plans_span">
+                                    <img src="./images/standard.svg" alt="Vector">
+                                    <p data-i18n="plans.service.rootCanal">Лікування кореневих каналів</p>
+                                </span>
+                                <p class="plans-price">1000 kč</p>
+                            </li>
+                            <li class="plans-standard__item">
+                                <div>
+                                    <img src="./images/standard.svg" alt="Vector">
+                                    <h4 data-i18n="plans.service.therapy">Терапія</h4>
+                                </div>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.consultNoIns">Консультація без страхування</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 3000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.hygiene">Гігієна</p>
+                                    <p class="plans-price">2500 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.cariesGIC">Лікування карієсу гібридним GIC</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 1000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.cariesComposite">Лікування карієсу з реставрацією з фотокомпозиту</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 2000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.fiberPost">Скловолоконний штифт</p>
+                                    <p class="plans-price">1000 kč <span data-i18n="plans.service.plusRestoration">+ реставрація</span></p>
+                                </span>
+                            </li>
+                            <li class="plans-standard__item">
+                                <div>
+                                    <img src="./images/standard.svg" alt="Vector">
+                                    <h4 data-i18n="plans.service.prosthetics">Протезування</h4>
+                                </div>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.impressions">Відбитки на частковий і повний знімний протез</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 3000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.flexibleDenture">Знімний бюгельний протез (дефлекс)</p>
+                                    <p class="plans-price">15000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.metalCeramicCrown">Металокерамічна коронка</p>
+                                    <p class="plans-price">7000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.allCeramicCrown">Цільнокерамічна коронка</p>
+                                    <p class="plans-price">9000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.temporaryCrown">Тимчасова коронка</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 500 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.temporaryRoot">Kořenová dostavba</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 2500 kč</p>
+                                </span>
+                            </li>
+                            <li class="plans-standard__item">
+                                <div>
+                                    <img src="./images/standard.svg" alt="Vector">
+                                    <h4 data-i18n="plans.service.implantation">Імплантація</h4>
+                                </div>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.implant">Імплантація</p>
+                                    <p class="plans-price"><span data-i18n="plans.service.from">від</span> 15000 kč</p>
+                                </span>
+                                <span class="plans_price">
+                                    <p data-i18n="plans.service.crownOnImplant">Коронка на імплантат</p>
+                                    <p class="plans-price">15000 kč</p>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="health_insurance">
+                            <p data-i18n="plans.insurance.text">Ми співпрацюємо з медичними страховими компаніями - </p>
+                            <p class="health__insurance">VZP, OZP, VoZP, ČPZP, ZPŠ, RBP</p>
+                        </div>
                     </div>
-                </div> -->
-                <span class="plans-standard_span" data-i18n="plans.priceList">ПРАЙС</span>
-                <ul class="plans-standard_list">
-                    <li class="plans-standard_item">
-                        <span class="plans_span">
-                            <img src="./images/standard.svg" alt="Vector">
-                            <p data-i18n="plans.service.rootCanal">Лікування кореневих каналів</p>
-                        </span>
-                        <p class="plans-price">1000 kč</p>
-                    </li>
-                    <li class="plans-standard__item">
-                        <div>
-                            <img src="./images/standard.svg" alt="Vector">
-                            <h4 data-i18n="plans.service.therapy">Терапія</h4>
-                        </div>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.consultNoIns">Консультація без страхування</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 3000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.hygiene">Гігієна</p>
-                            <p class="plans-price">2500 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.cariesGIC">Лікування карієсу гібридним GIC</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 1000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.cariesComposite">Лікування карієсу з реставрацією з фотокомпозиту</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 2000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.fiberPost">Скловолоконний штифт</p>
-                            <p class="plans-price">1000 kč <span data-i18n="plans.service.plusRestoration">+ реставрація</span></p>
-                        </span>
-                    </li>
-                    <li class="plans-standard__item">
-                        <div>
-                            <img src="./images/standard.svg" alt="Vector">
-                            <h4 data-i18n="plans.service.prosthetics">Протезування</h4>
-                        </div>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.impressions">Відбитки на частковий і повний знімний протез</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 3000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.flexibleDenture">Знімний бюгельний протез (дефлекс)</p>
-                            <p class="plans-price">15000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.metalCeramicCrown">Металокерамічна коронка</p>
-                            <p class="plans-price">7000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.allCeramicCrown">Цільнокерамічна коронка</p>
-                            <p class="plans-price">9000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.temporaryCrown">Тимчасова коронка</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 500 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.temporaryRoot">Kořenová dostavba</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 2500 kč</p>
-                        </span>
-                    </li>
-                    <li class="plans-standard__item">
-                        <div>
-                            <img src="./images/standard.svg" alt="Vector">
-                            <h4 data-i18n="plans.service.implantation">Імплантація</h4>
-                        </div>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.implant">Імплантація</p>
-                            <p class="plans-price"><span data-i18n="plans.service.from">від</span> 15000 kč</p>
-                        </span>
-                        <span class="plans_price">
-                            <p data-i18n="plans.service.crownOnImplant">Коронка на імплантат</p>
-                            <p class="plans-price">15000 kč</p>
-                        </span>
-                    </li>
-                </ul>
-                <div class="health_insurance">
-                    <p>Ми співпрацюємо з медичними страховими компаніями - </p>
-                    <p class="health__insurance">VZP, OZP, VoZP, ČPZP, ZPŠ, RBP</p>
                 </div>
             </div>
-        </div>
-        </div>
         </section>
     </main>
     <!-- Footer -->
@@ -165,14 +153,24 @@
         <div class="container">
             <div class="wrapper-footer">
                 <div class="subscribe">
-                    <h2 class="subscribe-title" data-i18n="footer.subscribeTitle">Subscribe to our Newsletter</h2>
-                    <p class="subscribe-text" data-i18n="footer.subscribeText">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
-                    </p>
-                    <form class="subscribe-form">
-                        <input class="subscribe-input" type="text" data-i18n-placeholder="footer.emailPh" placeholder="Enter your email">
-                        <button class="subscribe-btn" type="submit" data-i18n="footer.subscribeBtn">Subscribe</button>
-                    </form>
+                    <a href="https://www.vzp.cz/">
+                        <img src="images/VZP.svg" alt>
+                    </a>
+                    <a href="https://www.ozp.cz/">
+                        <img src="images/OZP.svg" alt>
+                    </a>
+                    <a href="https://www.vozp.cz/">
+                        <img src="images/VoZP.png" alt>
+                    </a>
+                    <a href="https://cpzp.cz/">
+                        <img src="images/czpz_office_barvy.png" alt>
+                    </a>
+                    <a href="https://www.zpskoda.cz/">
+                        <img src="images/ZPS.png" alt>
+                    </a>
+                    <a href="https://www.rbp213.cz/">
+                        <img src="images/rbp.png" alt>
+                    </a>
                 </div>
                 <div class="menu">
                     <p class="menu-text" data-i18n="footer.menu">Menu</p>
@@ -193,7 +191,7 @@
                                 <a class="menu_link" href="./contact.html" data-i18n="footer.contactPage">Contact</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_link" href="./plans.html" data-i18n="nav.prices" data-i18n="footer.plans">Plans</a>
+                                <a class="menu_link" href="./plans.html" data-i18n="footer.plans">Plans</a>
                             </li>
                         </ul>
                     </div>
@@ -215,8 +213,9 @@
                                 </a>
                             </li>
                             <li class="contact-item">
-                                <img src="./images/point.svg" alt="">
-                                <p data-i18n="footer.address">Plynarni 1032/29, 170 00 Praha 7</p>
+                                <img src="./images/point.svg" alt>
+                                <p data-i18n="footer.address">Plynarni
+                                    1032/29, 170 00 Praha 7</p>
                             </li>
                         </ul>
                     </address>
@@ -236,7 +235,7 @@
                         </a>
                     </li>
                     <li class="footer-box_item">
-                        <a class="footer-box_link" href="">
+                        <a class="footer-box_link" href>
                             <img class="footer-box_img" src="./images/social/twitter.svg" alt="Twitter">
                         </a>
                     </li>
@@ -246,22 +245,22 @@
                         </a>
                     </li>
                     <li class="footer-box_item">
-                        <a class="footer-box_link" href="">
+                        <a class="footer-box_link" href>
                             <img class="footer-box_img" src="./images/social/linkedln.svg" alt="Linkedln">
                         </a>
                     </li>
                     <li class="footer-box_item">
-                        <a class="footer-box_link" href="">
+                        <a class="footer-box_link" href>
                             <img class="footer-box_img" src="./images/social/youtube.svg" alt="YouTube">
                         </a>
                     </li>
                     <li class="footer-box_item">
-                        <a class="footer-box_link" href="">
+                        <a class="footer-box_link" href>
                             <img class="footer-box_img" src="./images/social/telegram.svg" alt="Telegram">
                         </a>
                     </li>
                     <li class="footer-box_item">
-                        <a class="footer-box_link" href="">
+                        <a class="footer-box_link" href>
                             <img class="footer-box_img" src="./images/social/whatsapp.svg" alt="WhatsApp">
                         </a>
                     </li>
@@ -273,4 +272,5 @@
     <!-- Translation script -->
     <script type="module" src="js/i18next.js"></script>
 </body>
+
 </html>

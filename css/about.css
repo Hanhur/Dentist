@@ -4,13 +4,7 @@
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-.scroll
-{
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    justify-content: center;
 }
 .scroll_text
 {
@@ -22,15 +16,9 @@
     font-weight: 700;
     font-size: 58px;
     line-height: 1;
-    width: 744px;
-    margin-bottom: 20px;
+    width: 790px;
+    margin-bottom: 50px;
     color: var(--colors-Neutral-800);
-}
-.dentist-clinic_text
-{
-    width: 542px;
-    margin-bottom: 65px;
-    color: var(--colors-Neutral-600);
 }
 .dentist_img
 {
