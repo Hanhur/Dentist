@@ -212,14 +212,6 @@ body
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
-.clinic-img
-{
-    width: 100%;
-    height: 600px;
-    border-radius: 32px;
-    box-shadow: var(--box-shadow);
-}
-
 /* ===================================== Block Services ================================= */
 .block-services
 {
@@ -839,4 +831,19 @@ body
     border-radius: 12px;
     color: var(--colors-Neutral-800);
     cursor: pointer;
+}
+/* ================================= Swipper ======================================= */
+.swipper-doctors
+{
+    display: flex;
+    margin-bottom: 26px;
+    border-radius: 32px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: var(--colors-Primary-Accent);
 }

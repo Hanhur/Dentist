@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Dental Kit</title>
 </head>
@@ -60,7 +61,21 @@
                         <h1 class="clinic-title" data-i18n="hero.title">A <span>dentistry clinic</span> you can trust</h1>
                         <a class="clinic-btn" href="./contact.html" data-i18n="hero.btn1">Book an Appointment</a>
                     </div>
-                    <img class="clinic-img" src="./images/clinic-bg.jpg" alt="Mask Group">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swipper-slide">
+                                <img class="swipper-doctors" src="images/clinic-bg.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide swipper-slide">
+                                <img class="swipper-doctors" src="images/ord_2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide swipper-slide">
+                                <img class="swipper-doctors" src="images/recepce.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
                 <div class="block-services">
                     <div class="box-contact">
@@ -371,7 +386,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script type="module" src="js/i18next.js"></script>
     <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/swiper.js"></script>
 </body>
 </html>
