@@ -1,5 +1,21 @@
 import { translations } from "./translations.js";
 
+function switchAboutImage(lang) {
+    const images = document.querySelectorAll('.lang-image');
+
+    if (images.length === 0) return;
+
+    images.forEach(img => img.classList.remove('active'));
+
+    const activeImg = document.getElementById(`img-${lang}`);
+    if (activeImg) {
+        activeImg.classList.add('active');
+    } else {
+        const defaultImg = document.getElementById('img-cs');
+        if (defaultImg) defaultImg.classList.add('active');
+    }
+}
+
 function applyTranslations(lang) {
     if (!translations[lang]) lang = 'cs';
     document.documentElement.lang = lang;
@@ -18,7 +34,6 @@ function applyTranslations(lang) {
         }
     });
 
-    // <title>
     document.querySelectorAll('title[data-i18n]').forEach(el => {
         const key = el.dataset.i18n;
         if (translations[lang][key] !== undefined) {
@@ -26,7 +41,8 @@ function applyTranslations(lang) {
         }
     });
 
-    // Синхронизация селектора
+    switchAboutImage(lang);
+
     const langSelect = document.getElementById('langSelect');
     if (langSelect && langSelect.value !== lang) langSelect.value = lang;
 
@@ -70,20 +86,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        select.addEventListener('mousedown', () => {
-            wrapper.classList.add('is-open');
-        });
-
-        select.addEventListener('focus', () => {
-            wrapper.classList.add('is-open');
-        });
-
-        select.addEventListener('blur', () => {
-            wrapper.classList.remove('is-open');
-        });
-
-        select.addEventListener('change', () => {
-            wrapper.classList.remove('is-open');
-        });
+        select.addEventListener('mousedown', () => wrapper.classList.add('is-open'));
+        select.addEventListener('focus', () => wrapper.classList.add('is-open'));
+        select.addEventListener('blur', () => wrapper.classList.remove('is-open'));
+        select.addEventListener('change', () => wrapper.classList.remove('is-open'));
     });
 });

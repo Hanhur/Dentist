@@ -633,7 +633,7 @@ export const translations = {
         "plans.insurance.text": "We cooperate with health insurance companies - ",
 
         // ABOUT HERO
-        "aboutHero.title": "We are Dentist, a dental clinic you can trust",
+        "aboutHero.title": "We are Dental Kit, a dental clinic you can trust",
         "aboutHero.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
         "aboutHero.scroll": "Scroll Down",
 

@@ -165,12 +165,15 @@ body
     transition-timing-function: var(--cubic)
 }
 /* ========================== Section Clinic ================================ */
-
+.section-clinic
+{
+    margin-bottom: 200px;
+}
 .clinic-block
 {
     display: flex;
-    gap: 81px;
-    position: relative;
+    gap: 35px;
+    margin-bottom: 50px;
 }
 .clinic-box
 {
@@ -197,11 +200,6 @@ body
     margin-bottom: 44px;
     color: var(--colors-Neutral-600);
 }
-.clinic-buttons
-{
-    display: flex;
-    gap: 0 24px;
-}
 .clinic-btn 
 {
     font-weight: 700;
@@ -214,19 +212,12 @@ body
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
-.clinic_btn
+.clinic-img
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.1;
-    padding: 10px;
-    border-radius: 12px;
-    text-align: center;
-    width: 201px;
-    height: 68px;
-    border: 1px solid var(--colors-Neutral-300);
-    color: var(--colors-Primary-Accent);
+    width: 100%;
+    height: 600px;
+    border-radius: 32px;
+    box-shadow: var(--box-shadow);
 }
 
 /* ===================================== Block Services ================================= */
@@ -241,12 +232,6 @@ body
     border: 1px solid var(--colors-Neutral-100);
     background-color: var(--colors-Neutral-100);
     box-shadow: var(--box-shadow);
-    position: relative;
-    content: '';
-    right: -70px;
-    bottom: 140px;
-    width: 1220px;
-    height: 226px;
 }
 .box-contant_img
 {
@@ -843,15 +828,7 @@ body
     color: var(--colors-Neutral-800);
     margin-right: 26px;
 }
-.footer-box__text
-{
-    font-size: 16px;
-    color: var(--colors-Neutral-600);
-}
-.footer-box__text span 
-{
-    color: var(--colors-Primary-Accent);
-}
+
 /* =========================================================================================== */
 .lang-select 
 {

@@ -5,6 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.about-image-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
 }
 .scroll_text
 {
@@ -22,10 +30,9 @@
 }
 .dentist_img
 {
-    display: block;
-    margin: 0 auto; 
     border-radius: 32px;
     overflow: hidden;
+    box-shadow: var(--box-shadow);
 }
 /* ====================================== About Make ============================= */
 .section-make
@@ -305,4 +312,17 @@
     height: 36px;
     padding: 10px;
     background-color: var(--colors-Primary-Accent);
+}
+.lang-image {
+    display: none;
+}
+
+.lang-image.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
