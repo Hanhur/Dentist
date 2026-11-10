@@ -47,9 +47,8 @@ export const translations = {
         "about.label": "O nás",
         "about.title": "Náš tým má jen jedno poslání: Rozesmát vás",
         "about.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. Sed vivamus porttitor tempus",
-        "about.doctor": "Dr. Andrew Moore",
-        "about.doctorRole": "Zubař v Global Dentistry",
-        "about.btn": "O naší klinice",
+        "about.doctor": "Dr. Yuriy Gor",
+        "about.doctorRole": "Zubní lékař – stomatochirurg a protetik",
 
         // CUSTOMERS
         "customers.label": "Naši zákazníci",
@@ -294,9 +293,8 @@ export const translations = {
         "about.label": "Про нас",
         "about.title": "У нашої команди лише одна місія: Змусити вас усміхатися",
         "about.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. Sed vivamus porttitor tempus",
-        "about.doctor": "Др. Ендрю Мур",
-        "about.doctorRole": "Стоматолог у Global Dentistry",
-        "about.btn": "Про нашу клініку",
+        "about.doctor": "Dr. Yuriy Gor",
+        "about.doctorRole": "Лікар-стоматолог, хірург та стоматолог, ортопед",
 
         // CUSTOMERS
         "customers.label": "Наші клієнти",
@@ -445,10 +443,10 @@ export const translations = {
         "plans.priceList": "ЦІННИК",
         "plans.service.heading": "Стоматологія",
         "plans.service.subheading": "Здорові ваші усмішки",
-        "plans.service.rootCanal": "Лікування кореневих каналів",
+        "plans.service.rootCanal": "Консультація без страхування",
         "plans.service.from": "від",
         "plans.service.therapy": "Терапія",
-        "plans.service.consultNoIns": "Консультація без страхування",
+        "plans.service.consultNoIns": "Лікування кореневих каналів",
         "plans.service.hygiene": "Гігієна",
         "plans.service.cariesGIC": "Лікування карієсу гібридним GIC",
         "plans.service.cariesComposite": "Лікування карієсу реставрацією з фотокомпозиту",
@@ -539,9 +537,8 @@ export const translations = {
         "about.label": "About Us",
         "about.title": "Our team has only one mission: Make you smile",
         "about.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. Sed vivamus porttitor tempus",
-        "about.doctor": "Dr.Andrew Moore",
-        "about.doctorRole": "Dentist at Global Dentistry",
-        "about.btn": "About our Clinic",
+        "about.doctor": "Dr. Yuriy Gor",
+        "about.doctorRole": "Dental Surgeon & Prosthodontist",
 
         // CUSTOMERS
         "customers.label": "Our Customers",
