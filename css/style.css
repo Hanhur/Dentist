@@ -309,7 +309,8 @@ body
 .contact-link:hover,
 .contactUs_link:hover,
 .menu-item:hover,
-.menu_item:hover
+.menu_item:hover,
+.contact-span p:hover
 {
     font-weight: 700;
     color: var(--colors-Primary-Accent);

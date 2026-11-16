@@ -75,6 +75,11 @@
     width: 170px;
     color: var(--colors-Neutral-800);
 }
+.contact_span p
+{
+    width: 210px;
+    color: var(--colors-Neutral-600);
+}
 .contact-span p
 {
     width: 210px;

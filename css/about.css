@@ -30,6 +30,7 @@
 }
 .dentist_img
 {
+    width: 100%;
     border-radius: 32px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
