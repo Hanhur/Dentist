@@ -5,7 +5,7 @@ export const translations = {
         "nav.services": "Služby",
         "nav.prices": "Ceny",
         "nav.about": "O nás",
-        "nav.bookNow": "Rezervovat",
+        "nav.bookNow": "Registrace",
 
         // HERO
         "hero.title": "<span>Stomatologická klinika</span>, které můžete věřit",
@@ -720,7 +720,7 @@ export const translations = {
         // SIGN UP
         "signup.pageTitle": "Sign Up",
         "signup.title": "Sign Up",
-        "signup.username": "Username",
+        "signup.username": "User name",
         "signup.usernamePh": "Enter your name",
         "signup.usernameError": "At least 3 characters",
         "signup.email": "Email",
