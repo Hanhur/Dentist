@@ -181,6 +181,7 @@ body
 /* ========================== Section Clinic ================================ */
 .section-clinic
 {
+    margin-top: 100px;
     margin-bottom: 200px;
 }
 .clinic-block
@@ -231,8 +232,10 @@ body
 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 140px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
     padding: 30px;
     border-radius: 28px;
     border: 1px solid var(--colors-Neutral-100);
@@ -293,6 +296,7 @@ body
     font-weight: 700;
     font-size: 16px;
     line-height: 1.1;
+    white-space: nowrap;
     color: var(--colors-Primary-Accent);
     border-bottom: 2px solid var(--colors-Primary-Accent);
 }
@@ -879,6 +883,71 @@ body
         display: flex;
         gap: 20px;
     }
+    .clinic-title
+    {
+        width: 472px;
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    .clinic-title
+    {
+        width: 580px;
+        font-size: 45px;
+        text-align: center;
+    }
+    .clinic-btn
+    {
+        margin: 0 auto;
+    }
+    .clinic-block
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 600px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
+    }
+    .block-services
+    {
+        width: 500px;
+        align-content: center;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 885px)
+{
+    .clinic-title
+    {
+        width: 448px;
+        font-size: 38px;
+    }
+    .clinic-btn
+    {
+        width: 215px;
+        height: 58px;
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 785px)
+{
+    .clinic-title
+    {
+        font-size: 35px;
+    }
 }
 @media screen and (max-width: 685px)
 {
@@ -890,6 +959,16 @@ body
     .header-item
     {
         padding: 8px;
+    }
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 500px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
     }
 }
 @media screen and (max-width: 595px)
@@ -914,6 +993,101 @@ body
         flex-direction: column;
         gap: 15px;
     }
+    .clinic-title
+    {
+        width: 380px;
+        font-size: 28px;
+    }
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 400px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .block-services
+    {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 455px)
+{
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 350px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
+    }
+    .block-services
+    {
+        width: 350px;
+        padding: 20px;
+    }
+    .box-contant_img,
+    .box-open-hours_img,
+    .box-contant-services_img
+    {
+        width: 52px;
+    }
+    .box-contact_text,
+    .box-open-hours_text,
+    .box-contact-services_text
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 385px)
+{
+    .clinic-title
+    {
+        width: 285px;
+        font-size: 22px;
+    }
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 300px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
+    }
+    .block-services
+    {
+        align-content: stretch;
+        width: 300px;
+        padding: 10px;
+    }
+    .box-contant_img,
+    .box-open-hours_img,
+    .box-contant-services_img
+    {
+        width: 50px;
+    }
+    .box-contact_text,
+    .box-open-hours_text,
+    .box-contact-services_text
+    {
+        font-size: 16px;
+    }
+    .box-contact_link,
+    .box-contact__link,
+    .box-open-hours_link span,
+    .box-open-hours_link,
+    .box-contact-services_link
+    {
+        font-size: 14px;
+        color: var(--colors-Neutral-600);
+    }
 }
 @media screen and (max-width: 355px)
 {
@@ -927,5 +1101,21 @@ body
     .header-btn
     {
         padding: 18px;
+    }
+    .swiper-wrapper
+    {
+        width: 100%; 
+        max-width: 280px;
+        margin: 0 auto; 
+    }
+    .swipper-doctors
+    {
+        width: 100%;
+    }
+    .block-services
+    {
+        align-content: stretch;
+        width: 280px;
+        padding: 10px;
     }
 }
