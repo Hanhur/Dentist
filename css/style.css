@@ -348,8 +348,9 @@ body
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 48px;
-    gap: 0 370px;
+    gap: 0 10px;
     margin-top: 20px;
 }
 .our-team_dental-title
@@ -368,6 +369,7 @@ body
     padding: 24px;
     width: 251px;
     height: 68px;
+    white-space: nowrap;
     text-align: center;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
@@ -888,6 +890,15 @@ body
         width: 472px;
         font-size: 55px;
     }
+    .our-team_dental-title
+    {
+        font-size: 32px;
+        width: 610px;
+    }
+    .services__block
+    {
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 1000px)
 {
@@ -926,6 +937,37 @@ body
         gap: 30px;
         margin: 0 auto;
     }
+    .our-team_dental
+    {
+        flex-direction: column;
+    }
+    .our-team_dental-title
+    {
+        text-align: center;
+        font-size: 30px;
+        width: 567px;
+        margin-bottom: 30px;
+    }
+    .services_block 
+    {
+        width: 410px;
+    }
+    .services-treatment_img 
+    {
+        padding: 50px 147px 55px 150px;
+    }
+    .services-prosthetic_img
+    {
+        padding: 50px 159px 50px 158px;
+    }
+    .services-surgery_img 
+    {
+        padding: 45px 133px 33px 131px;
+    }
+    .services_title
+    {
+        font-size: 21px;
+    }
 }
 @media screen and (max-width: 885px)
 {
@@ -940,6 +982,10 @@ body
         height: 58px;
         font-size: 16px;
         padding: 15px;
+    }
+    .services_block 
+    {
+        width: 410px;
     }
 }
 @media screen and (max-width: 785px)
@@ -969,6 +1015,11 @@ body
     .swipper-doctors
     {
         width: 100%;
+    }
+    .our-team_dental-title
+    {
+        font-size: 25px;
+        width: 500px;
     }
 }
 @media screen and (max-width: 595px)
@@ -1013,6 +1064,11 @@ body
     {
         width: 400px;
     }
+    .our-team_dental-title
+    {
+        font-size: 21px;
+        width: 400px;
+    }
 }
 @media screen and (max-width: 455px)
 {
@@ -1040,6 +1096,34 @@ body
     .box-contact_text,
     .box-open-hours_text,
     .box-contact-services_text
+    {
+        font-size: 18px;
+    }
+    .our-team_dental-title 
+    {
+        font-size: 18px;
+        width: 340px;
+    }
+    .our-team_dental-btn 
+    {
+        width: 215px;
+        height: 58px;
+        font-size: 16px;
+        padding: 15px;
+    }
+    .services_block 
+    {
+        width: 350px;
+    }
+    .services-treatment_img 
+    {
+        padding: 50px 130px 55px 130px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 50px 140px 50px 140px;
+    }
+    .services_title 
     {
         font-size: 18px;
     }
@@ -1088,6 +1172,31 @@ body
         font-size: 14px;
         color: var(--colors-Neutral-600);
     }
+    .our-team_dental-title 
+    {
+        font-size: 16px;
+        width: 305px;
+    }
+    .services_block 
+    {
+        width: 310px;
+    }
+    .services-treatment_img 
+    {
+        padding: 50px 110px 55px 110px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 50px 120px 50px 120px;
+    }
+    .services-surgery_img 
+    {
+        padding: 45px 110px 33px 110px;
+    }
+    .services-prevention_img 
+    {
+        padding: 65px 110px 66px 110px;
+    }
 }
 @media screen and (max-width: 355px)
 {
@@ -1117,5 +1226,18 @@ body
         align-content: stretch;
         width: 280px;
         padding: 10px;
+    }
+    .our-team_dental-title 
+    {
+        font-size: 16px;
+        width: 265px;
+    }
+    .services_block 
+    {
+        width: 285px;
+    }
+    .services_title 
+    {
+        font-size: 16px;
     }
 }
