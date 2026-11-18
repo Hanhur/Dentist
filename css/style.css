@@ -555,13 +555,8 @@ body
 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0 80px;
+    justify-content: space-around;
     margin-bottom: 125px;
-}
-.contactUs-block
-{
-    margin-top: 220px;
 }
 .contactUs-link
 {
@@ -601,6 +596,7 @@ body
     display: flex;
     align-items: center;
     gap: 0 14px;
+    white-space: nowrap;
     color: var(--colors-Neutral-800);
 }
 .contactUs-img
@@ -711,7 +707,6 @@ body
     line-height: 1.1;
     padding: 24px 32px;
     border-radius: 12px;
-    margin-bottom: 20px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
 }
@@ -878,6 +873,24 @@ body
 }
 /* ======================================= Media ======================================= */
 
+@media screen and (max-width: 1180px)
+{
+    .contactUs-title
+    {
+        font-size: 33px;
+        width: 380px;
+    }
+    .contactUs-list
+    {
+        gap: 20px;
+    }
+    .form-contactUs
+    {
+        width: 625px;
+        height: 640px;
+        padding: 50px 35px;
+    }
+}
 @media screen and (max-width: 1135px)
 {
     .header-inner
@@ -908,6 +921,18 @@ body
         top: 350px;
         left: 235px;
         width: 362px;
+    }
+    .contactUs-title
+    {
+        font-size: 28px;
+        width: 325px;
+    }
+    .contactUs-list
+    {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px 0;
+        width: 250px;
     }
 }
 @media screen and (max-width: 1000px)
@@ -990,6 +1015,30 @@ body
     .block-mission
     {
         margin-top: -280px;
+    }
+    .wrapper-contactUs
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactUs-block
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .contactUs-list
+    {
+        justify-content: center;
+        flex-direction: row;
+        gap: 0 20px;
+    }
+    .contactUs-title 
+    {
+        font-size: 28px;
+        width: 480px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 930px)
@@ -1119,6 +1168,37 @@ body
         width: 500px;
     }
 }
+@media screen and (max-width: 655px)
+{
+    .form-box_1,
+    .form-box_2
+    {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form-contactUs 
+    {
+        width: 420px;
+        height: 885px;
+        padding: 50px 35px;
+    }
+    .form_box
+    {
+        align-items: center;
+        justify-content: center;
+    }
+    .form-textarea,
+    .form-label
+    {
+        width: 262px;
+    }
+    .form-btn
+    {
+        display: block;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width: 595px)
 {
     .header-inner
@@ -1170,6 +1250,25 @@ body
     .block-img_2
     {
         width: 380px;
+    }
+}
+@media screen and (max-width: 485px)
+{
+    .contactUs-title 
+    {
+        font-size: 21px;
+        width: 325px;
+    }
+    .contactUs-list 
+    {
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    .form-contactUs 
+    {
+        width: 340px;
+        height: 885px;
+        padding: 50px 35px;
     }
 }
 @media screen and (max-width: 455px)
@@ -1311,18 +1410,33 @@ body
     }
     .moore_title 
     {
-        width: 185px;
+        width: 150px;
         font-size: 21px;
     }
     .moore_text 
     {
         font-size: 16px;
-        width: 175px;
+        width: 155px;
     }
     .moore_img 
     {
         width: 80px;
         height: 80px;
+    }
+    .contactUs-title 
+    {
+        font-size: 18px;
+        width: 278px;
+    }
+    .form-contactUs 
+    {
+        width: 315px;
+        height: 800px;
+        padding: 35px;
+    }
+    .form-input
+    {
+        margin-bottom: 16px;
     }
 }
 @media screen and (max-width: 355px)
@@ -1366,5 +1480,19 @@ body
     .services_title 
     {
         font-size: 16px;
+    }
+    .box-open-hours_item
+    {
+        width: 155px;
+    }
+    .box-contact-services_item
+    {
+        width: 185px;
+    }
+    .form-contactUs 
+    {
+        width: 300px;
+        height: 785px;
+        padding: 30px;
     }
 }
