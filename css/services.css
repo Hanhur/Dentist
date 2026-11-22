@@ -1,4 +1,4 @@
-.section-services
+.sercives_block
 {
     padding: 100px 109px;
 }
@@ -8,10 +8,7 @@
     align-items: center;
     justify-content: space-around;
     margin-bottom: 57px;
-}
-.box
-{
-    margin-right: 300px;
+    gap: 25px;
 }
 .box-title
 {
@@ -37,4 +34,337 @@
     padding: 24px;
     color: var(--colors-Neutral-100);
     background-color: var(--colors-Primary-Accent);
+}
+.clinic-btn
+{
+    white-space: nowrap;
+}
+/* ======================================= Media ======================================= */
+@media screen and (max-width: 1230px) 
+{
+    .services_block
+    {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1200px) 
+{
+    .services_block
+    {
+        width: 430px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 150px 35px 158px;
+    }
+}
+@media screen and (max-width: 1158px) 
+{
+    .services_block
+    {
+        width: 410px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 150px 35px 153px;
+    }
+    .services-surgery_img 
+    {
+        padding: 33px 123px 33px 131px;
+    }
+}
+@media screen and (max-width: 1098px) 
+{
+    .services_block
+    {
+        width: 390px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 150px 35px 153px;
+    }
+    .services-surgery_img 
+    {
+        padding: 33px 123px 33px 131px;
+    }
+}
+@media screen and (max-width: 1058px) 
+{
+    .services_block
+    {
+        width: 370px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 130px 55px 130px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 140px 35px 130px;
+    }
+    .services-surgery_img 
+    {
+        padding: 33px 123px 33px 131px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 127px 60px 130px;
+    }
+    .services_title
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1050px) 
+{
+    .services-box
+    {
+        gap: 15px;
+    }
+    .box,
+    .box-text
+    {
+        width: 465px;
+    }
+}
+@media screen and (max-width: 1018px) 
+{
+    .services_block
+    {
+        width: 350px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 125px 55px 125px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 130px;
+    }
+    .services-surgery_img 
+    {
+        padding: 33px 123px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 127px 60px 130px;
+    }
+    .services_title
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 978px) 
+{
+    .services_block
+    {
+        width: 338px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 110px 35px 120px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 125px;
+    }
+    .services-surgery_img 
+    {
+        padding: 35px 120px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 120px;
+    }
+    .services_title
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 955px) 
+{
+    .services_block
+    {
+        width: 320px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 110px 35px 120px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 125px;
+    }
+    .services-surgery_img 
+    {
+        padding: 35px 118px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 120px;
+    }
+    .services_title
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 918px) 
+{
+    .services_block
+    {
+        width: 300px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 110px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 120px;
+    }
+    .services-surgery_img 
+    {
+        padding: 35px 110px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 110px;
+    }
+    .services_title
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 878px) 
+{
+    .services_block
+    {
+        width: 285px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 100px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 108px;
+    }
+    .services-surgery_img 
+    {
+        padding: 35px 100px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 100px;
+    }
+    .services_title
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 848px) 
+{
+    .services__block 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .services_block
+    {
+        width: 285px;
+    }
+    .services-treatment_img 
+    {
+        padding: 35px 100px;
+    }
+    .services-prosthetic_img 
+    {
+        padding: 35px 108px;
+    }
+    .services-surgery_img 
+    {
+        padding: 35px 100px;
+    }
+    .services-prevention_img 
+    {
+        padding: 50px 100px;
+    }
+}
+@media screen and (max-width: 535px) 
+{
+    .sercives_block 
+    {
+        padding: 100px 0px;
+    }
+    .services_link 
+    {
+        width: 115px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1000px) 
+{
+    .services-box
+    {
+        flex-direction: column;
+    }
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 465px;
+    }
+    .box-title
+    {
+        text-align: center;
+        font-size: 54px;
+    }
+    .box-text
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 595px) 
+{
+    .box-title
+    {
+        font-size: 50px;
+    }
+    .box-text
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 485px) 
+{
+    .box-title
+    {
+        width: 300px;
+        font-size: 45px;
+    }
+    .box,
+    .box-text
+    {
+        width: 330px;
+    }
+    .clinic-btn 
+    {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 355px) 
+{
+    .box-title
+    {
+        width: 255px;
+        font-size: 32px;
+    }
+    .box,
+    .box-text
+    {
+        font-size: 16px;
+        width: 288px;
+    }
 }
