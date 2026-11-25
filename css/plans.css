@@ -1,41 +1,10 @@
-.section-plans
-{
-    padding: 100px 109px;
-}
-.plans-box
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.plans-title
-{
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 1.0;
-    width: 770px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--colors-Neutral-800);
-}
-.plans-title span
-{
-    color: var(--colors-Primary-Accent);
-}
-.plans-text
-{
-    width: 567px;
-    text-align: center;
-    margin-bottom: 48px;
-    color: var(--colors-Neutral-600);
-}
 /* ============================= Plans Price ======================= */
 .plans-block
 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 109px;
 }
 .plans-standard
 {
@@ -157,6 +126,11 @@
 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+.plans-price
+{
+    white-space: nowrap;
 }
 .health_insurance
 {
@@ -171,4 +145,75 @@
 {
     font-weight: 700;
     font-size: 21px;
+}
+/* =============================================== Media ================================== */
+@media screen and (max-width: 935px) 
+{
+    .plans-standard_span 
+    {
+        font-size: 50px;
+    }
+    .plans-standard_span::before,
+    .plans-standard_span::after 
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 835px) 
+{
+    .plans-standard 
+    {
+        width: 580px;
+    }
+    .plans-standard_span 
+    {
+        font-size: 45px;
+    }
+    .plans_span p, 
+    .plans-price 
+    {
+        font-size: 18px;
+    }
+    .plans-standard__item h4 
+    {
+        font-size: 18px;
+    }
+    .plans-segment,
+    .plans-impressions
+    {
+        width: 270px;
+    }
+}
+@media screen and (max-width: 755px) 
+{
+    .plans-standard_span 
+    {
+        font-size: 40px;
+    }
+    .plans-hygiene,
+    .plans-caries
+    {
+        width: 275px;
+    }
+}
+@media screen and (max-width: 720px) 
+{
+    .plans-standard_span 
+    {
+        font-size: 35px;
+    }
+    .plans_span p, 
+    .plans-price 
+    {
+        font-size: 16px;
+    }
+    .plans-hygiene,
+    .plans-caries
+    {
+        width: 275px;
+    }
+    .health__insurance 
+    {
+        font-size: 18px;
+    }
 }

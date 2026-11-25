@@ -113,15 +113,13 @@ export const translations = {
         "footer.copyright": "Copyright &copy; Dentist Navrhl <span>BRIX Templates</span> - Běží na <span>Webflow</span>",
 
         // PLANS PRICE LIST
-        "plans.title": "Dostupné plány termínů <span>pro každého</span>",
-        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
         "plans.priceList": "CENÍK",
         "plans.service.heading": "Stomatologie",
         "plans.service.subheading": "Vaše zdravé úsměvy",
         "plans.service.rootCanal": "Konzultace bez pojištění",
         "plans.service.from": "od",
         "plans.service.therapy": "Záchovna stomatologie",
-        "plans.service.consultNoIns": "Léčba kořenových kanálků",
+        "plans.service.consultNoIns": "Ošetření kořenových kanálků",
         "plans.service.hygiene": "Komplexní profesionální dentální hygiena",
         "plans.service.cariesGIC": "Ošetření kazu hybridním GIC",
         "plans.service.cariesComposite": "Ošetření kazu s fotokompozitní rekonstrukcí",
@@ -139,9 +137,7 @@ export const translations = {
         "plans.service.crownOnImplant": "Korunka na implantát",
         "plans.service.crownToothExtraction": "Extrakce zubu",
         "plans.service.crownComplicatedToothExtraction": "Komplikovaná extrakce zubu",
-        "plans.service.crownSutureRemoval": "Odstraňování stehů z jiných stomatologických zákroků",
-        "plans.service.rootCanal": "Ošetření kořenových kanálků",
-        "plans.service.consultNoIns": "Konzultace bez pojištění",
+        "plans.service.crownSutureRemoval": "Odstranění stehů z jiné stomatologie 1 segment",
         "plans.insurance.text": "Spolupracujeme se zdravotními pojišťovnami - ",
 
         // ABOUT HERO
@@ -441,8 +437,6 @@ export const translations = {
         "contactPage.viewLocation": "Переглянути розташування",
 
         // PLANS PRICE LIST
-        "plans.title": "Доступні плани прийомів <span>для кожного</span>",
-        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
         "plans.priceList": "ЦІННИК",
         "plans.service.heading": "Стоматологія",
         "plans.service.subheading": "Здорові ваші усмішки",
@@ -467,7 +461,7 @@ export const translations = {
         "plans.service.crownOnImplant": "Коронка на імплантат",
         "plans.service.crownToothExtraction": "Видалення зуба",
         "plans.service.crownComplicatedToothExtraction": "Ускладнене видалення зуба",
-        "plans.service.crownSutureRemoval": "Зняття швів з іншої стоматології",
+        "plans.service.crownSutureRemoval": "Зняття швів з іншої стоматології за 1 сегмент",
         "plans.insurance.text": "Ми співпрацюємо з медичними страховими компаніями - ",
 
         // SIGN UP
@@ -609,15 +603,13 @@ export const translations = {
         "footer.copyright": "Copyright &copy; Dentist Designed by <span>BRIX Templates</span> - Powered by <span>Webflow</span>",
 
         // PLANS PRICE LIST
-        "plans.title": "Affordable appointment plans <span>for everyone</span>",
-        "plans.text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu cras commodo nec nunc, lacus suspendisse mi, imperdiet.",
         "plans.priceList": "PRICE",
         "plans.service.heading": "Dentistry",
         "plans.service.subheading": "Your healthy smiles",
-        "plans.service.rootCanal": "Root canal treatment",
+        "plans.service.rootCanal": "Consultation without insurance",
         "plans.service.from": "from",
         "plans.service.therapy": "Prevention",
-        "plans.service.consultNoIns": "Consultation without insurance",
+        "plans.service.consultNoIns": "Root canal treatment",
         "plans.service.hygiene": "Comprehensive professional dental hygiene",
         "plans.service.cariesGIC": "Caries treatment with hybrid GIC",
         "plans.service.cariesComposite": "Caries treatment with composite restoration",
@@ -632,9 +624,9 @@ export const translations = {
         "plans.service.implantation": "Implantation",
         "plans.service.implant": "Implantation",
         "plans.service.crownOnImplant": "Crown on implant",
-         "plans.service.crownToothExtraction": "Tooth extraction",
+        "plans.service.crownToothExtraction": "Tooth extraction",
         "plans.service.crownComplicatedToothExtraction": "Complicated tooth extraction",
-        "plans.service.crownSutureRemoval": "Suture removal (from another dental clinic)",
+        "plans.service.crownSutureRemoval": "Suture Removal from Another Dental Clinic 1 Segment",
         "plans.service.temporaryRoot": "Root build-up",
         "plans.insurance.text": "We cooperate with health insurance companies - ",
 
