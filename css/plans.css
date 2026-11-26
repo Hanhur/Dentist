@@ -184,7 +184,7 @@
         width: 270px;
     }
 }
-@media screen and (max-width: 755px) 
+@media screen and (max-width: 800px) 
 {
     .plans-standard_span 
     {
@@ -196,7 +196,7 @@
         width: 275px;
     }
 }
-@media screen and (max-width: 720px) 
+@media screen and (max-width: 735px) 
 {
     .plans-standard_span 
     {
@@ -215,5 +215,52 @@
     .health__insurance 
     {
         font-size: 18px;
+    }
+}
+@media screen and (max-width: 690px) 
+{
+    .plans-standard_item,
+    .plans-standard__item div,
+    .plans_span
+    {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+    .plans_price
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px 0;
+        text-align: center;
+    }
+    .health_insurance
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) 
+{
+    .plans-standard_span 
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 375px) 
+{
+    .plans-standard_span 
+    {
+        width: 125px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .plans-hygiene, 
+    .plans-caries 
+    {
+        width: 225px;
+    }
+    .plans-segment, 
+    .plans-impressions 
+    {
+        width: 200px;
     }
 }
