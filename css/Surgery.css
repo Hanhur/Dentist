@@ -38,12 +38,6 @@
     color: var(--colors-Neutral-600);
 }
 /* ============================= Plans Price ======================= */
-.plans-block
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .plans-standard
 {
     display: flex;
@@ -54,33 +48,6 @@
     background-color: #FEFEFE;
     border: 1px solid var(--colors-Neutral-400);
     box-shadow: var(--box-shadow);
-}
-.plans-standard_box
-{
-    display: flex;
-    justify-content: center;
-    gap: 0 16px;
-}
-.plans-standard_img
-{
-    width: 85px;
-}
-.plans-standard_title
-{
-    font-weight: 700;
-    font-size: 38px;
-    color: #591177;
-    text-align: center;
-    text-transform: uppercase;
-}
-.plans-standard_text
-{
-    font-weight: 500;
-    font-size: 21px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #27103E;
-    text-transform: uppercase;
 }
 .plans-standard_span
 {
@@ -164,6 +131,11 @@
 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+.plans-price
+{
+    white-space: nowrap;
 }
 .health_insurance
 {
@@ -178,4 +150,193 @@
 {
     font-weight: 700;
     font-size: 21px;
+}
+/* ================================================== Media ========================================= */
+@media screen and (max-width: 1135px) 
+{
+    .single-title 
+    {
+        font-size: 54px;
+        width: 745px;
+    }
+}
+@media screen and (max-width: 1000px) 
+{
+    .single-title 
+    {
+        font-size: 50px;
+        width: 600px;
+    }
+    .single-text 
+    {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 930px) 
+{
+    .single-title 
+    {
+        font-size: 45px;
+        width: 538px;
+    }
+    .single-text 
+    {
+        width: 610px;
+    }
+}
+@media screen and (max-width: 840px) 
+{
+    .single-title 
+    {
+        font-size: 40px;
+        width: 480px;
+    }
+    .single-text 
+    {
+        width: 488px;
+    }
+}
+@media screen and (max-width: 755px) 
+{
+    .single-title 
+    {
+        font-size: 35px;
+        width: 420px;
+    }
+    .single-text 
+    {
+        font-size: 16px;
+        width: 435px;
+    }
+    .single_img 
+    {
+        width: 135px;
+    }
+}
+@media screen and (max-width: 719px) 
+{
+    .plans-standard 
+    {
+        width: 580px;
+    }
+    .plans-standard_span 
+    {
+        font-size: 50px;
+    }
+    .plans-standard_span::before,
+    .plans-standard_span::after 
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 685px) 
+{
+    .single-title 
+    {
+        font-size: 30px;
+        width: 358px;
+    }
+    .single-text 
+    {
+        width: 377px;
+    }
+    .single_img 
+    {
+        width: 130px;
+    }
+}
+@media screen and (max-width: 610px) 
+{
+    .single-title 
+    {
+        font-size: 25px;
+        width: 300px;
+    }
+    .single-text 
+    {
+        font-size: 15px;
+        width: 310px;
+    }
+    .plans-standard 
+    {
+        width: 438px;
+    }
+    .plans-standard_span 
+    {
+        font-size: 40px;
+    }
+    .plans-standard__item div,
+    .plans_span
+    {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+    .plans_price
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px 0;
+        text-align: center;
+    }
+    .health_insurance
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 534px) 
+{
+    .single-cosmetic 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px 0;
+    }
+    .single-title
+    {
+        text-align: center;
+        margin: 0 auto 16px;
+    }
+    .single-text 
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 467px) 
+{
+    .plans-standard 
+    {
+        width: 335px;
+    }
+    .plans-standard_span 
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 375px) 
+{
+    .single-title 
+    {
+        font-size: 20px;
+        width: 275px;
+    }
+    .single-text 
+    {
+        width: 285px;
+    }
+    .plans-standard 
+    {
+        width: 305px;
+    }
+    .plans-standard_span 
+    {
+        font-size: 25px;
+    }
+    .plans-standard__item h4 
+    {
+        font-size: 18px;
+    }
+    .health_insurance 
+    {
+        font-size: 16px;
+    }
 }

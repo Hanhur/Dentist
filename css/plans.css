@@ -17,33 +17,6 @@
     border: 1px solid var(--colors-Neutral-400);
     box-shadow: var(--box-shadow);
 }
-.plans-standard_box
-{
-    display: flex;
-    justify-content: center;
-    gap: 0 16px;
-}
-.plans-standard_img
-{
-    width: 85px;
-}
-.plans-standard_title
-{
-    font-weight: 700;
-    font-size: 38px;
-    color: #591177;
-    text-align: center;
-    text-transform: uppercase;
-}
-.plans-standard_text
-{
-    font-weight: 500;
-    font-size: 21px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #27103E;
-    text-transform: uppercase;
-}
 .plans-standard_span
 {
     font-weight: 700;
@@ -245,8 +218,13 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width: 375px) 
+@media screen and (max-width: 380px) 
 {
+    .plans_span p, 
+    .plans-price 
+    {
+        text-align: center;
+    }
     .plans-standard_span 
     {
         width: 125px;
